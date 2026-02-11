@@ -1,0 +1,56 @@
+Title: Hockey Game Event Analytics
+
+Description:
+    The Hockey Game Event Analytics system is a microservice designed to receive, store, and process 
+    batched game data (shots and penalties). It provides summaries that allow teams and analysts 
+    to track performance trends over the course of a season.
+
+
+Two Events:
+Shot Batch Events 
+    A batch containing a list of individual shot records.
+    Batch Properties: Includes the arena_id (the consistent device identifier), a batch_timestamp (the date/time the batch was sent) 
+    and a batch_count(numeric value that increments over time, counting the number of batches sent by the arena)
+    Item Properties: Each shot record in the batch includes a numeric game_id, a numeric period, and a shot_type (string).
+    added: game_time_seconds represents the number of seconds elapsed since the start of the game
+
+Penalty Batch Events 
+    A batch containing a list of individual penalty records.
+    Batch Properties: Includes the arena_id (the consistent device identifier), a batch_timestamp (the date/time the batch was sent) 
+    and a batch_count(numeric value that increments over time, counting the number of batches sent by the arena)
+    Item Properties: Each penalty record in the batch includes a numeric game_id, a numeric period, and a penalty_type (string).
+    added: game_time_seconds represents the number of seconds elapsed since the start of the game
+
+Also added: 
+Each shot and penalty record includes five-minute event counts (shots_last_5_minutes and penalties_last_5_minutes), 
+which change over time because they are recalculated based on the number of events that occurred within the previous five minutes of game 
+time as the game progresses.
+
+Peak Events:
+    During peak game windows (such as Saturday nights when multiple games are played
+    simultaneously), the system is guesstimated to receive 20 concurrent batches at the end of a
+    period. Each batch will contain between 20 and 100 individual event items, depending on the
+    intensity of the game period.
+
+
+Users With Descriptions:
+    Sports Betting Companies & Users
+        These users ingest batched game data to adjust live betting
+        lines and odds in real-time. By analyzing shots and penalties at the end of each period, they
+        can modify payout structures based on the game's current momentum.
+
+    Fantacy Sports Companies & Users
+        These users rely on the event data to provide automated
+        scoring updates for fantasy hockey participants. They use specific player stats, such as
+        goals from shots and penalty minutes, to update league standings and individual player value
+
+    Sports Media Producers
+        These users access the stored data to generate visual game
+        recaps and on-screen statistics for broadcasts. They primarily use the aggregated event
+        counts to display "shot clocks" and team disciplinary summaries to the viewing audience.
+
+    Hocky Genral Managers, Coaches & Scouts
+        These users analyze the stored event data to
+        evaluate player performance and scout upcoming opponents. They use the frequency and
+        types of shots or penalties to identify tactical weaknesses and make decisions regarding
+        roster changes or game-day strategies.

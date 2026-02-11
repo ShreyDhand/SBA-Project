@@ -1,0 +1,52 @@
+openapi: 3.0.0
+info:
+  description: This API provides event stats
+  version: "1.0.0"
+  title: Stats API
+paths:
+  /stats:
+    get:
+      summary: Gets the event stats
+      operationId: app.get_stats
+      description: Gets shot and penalty statistics
+      responses:
+        '200':
+          description: Successfully returned a stats object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Stats'
+components:
+  schemas:
+    Stats:
+      type: object
+      required:
+        - num_shots
+        - num_penalties
+        - max_shots_last_5_minutes
+        - min_shots_last_5_minutes
+        - max_penalties_last_5_minutes
+        - min_penalties_last_5_minutes
+        - last_updated
+      properties:
+        num_shots:
+          type: integer
+          example: 8
+        num_penalties:
+          type: integer
+          example: 13
+        max_shots_last_5_minutes:
+          type: integer
+          example: 15
+        min_shots_last_5_minutes:
+          type: integer
+          example: 0
+        max_penalties_last_5_minutes:
+          type: integer
+          example: 9
+        min_penalties_last_5_minutes:
+          type: integer
+          example: 1
+        last_updated:
+          type: string
+          example: "2026-02-10T19:31:53.669143Z"

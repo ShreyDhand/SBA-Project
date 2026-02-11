@@ -1,0 +1,7 @@
+version: 1
+datastore:
+  user: root
+  password: 4558
+  hostname: localhost
+  port: 3306
+  db: hockey_storage

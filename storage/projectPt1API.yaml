@@ -1,0 +1,190 @@
+openapi: 3.0.0
+info:
+  description: Receives batched hockey shot and penalty records for analytics.
+  version: "1.0.0"
+  title: hockey-batch-api
+  contact:
+    email: shreydhand2006@gmail.com
+
+paths:
+  /storage/shots:
+    post:
+      summary: Reports a batch of shot records
+      operationId: app.store_shot
+      description: Adds a batch of shot records sent from an arena tracking system
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ShotEvent'
+      responses:
+        '201':
+          description: batch successfully received
+        '400':
+          description: invalid input
+
+    get:
+      summary: Gets shot events between timestamps
+      operationId: app.get_shots
+      description: Gets shot events whose date_created is within start_timestamp (>=) and end_timestamp (<)
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Start of the timespan (UNIX timestamp seconds)
+          required: true
+          schema:
+            type: integer
+            example: 1700000000
+        - name: end_timestamp
+          in: query
+          description: End of the timespan (UNIX timestamp seconds)
+          required: true
+          schema:
+            type: integer
+            example: 1700003600
+      responses:
+        '200':
+          description: Successfully returned a list of shot events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ShotEvent'
+        '400':
+          description: Invalid request
+
+  /storage/penalties:
+    post:
+      summary: Reports a batch of penalty records
+      operationId: app.store_penalty
+      description: Adds a batch of penalty records sent from an arena tracking system
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PenaltyEvent'
+      responses:
+        '201':
+          description: batch successfully received
+        '400':
+          description: invalid input
+
+    get:
+      summary: Gets penalty events between timestamps
+      operationId: app.get_penalties
+      description: Gets penalty events whose date_created is within start_timestamp (>=) and end_timestamp (<)
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Start of the timespan (UNIX timestamp seconds)
+          required: true
+          schema:
+            type: integer
+            example: 1700000000
+        - name: end_timestamp
+          in: query
+          description: End of the timespan (UNIX timestamp seconds)
+          required: true
+          schema:
+            type: integer
+            example: 1700003600
+      responses:
+        '200':
+          description: Successfully returned a list of penalty events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PenaltyEvent'
+        '400':
+          description: Invalid request
+
+components:
+  schemas:
+    ShotEvent:
+      type: object
+      required:
+        - trace_id
+        - arena_id
+        - batch_timestamp
+        - batch_count
+        - game_id
+        - period
+        - shot_type
+        - game_time_seconds
+        - shots_last_5_minutes
+      properties:
+        trace_id:
+          type: string
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"
+        arena_id:
+          type: string
+          example: "arena-van-001"
+        batch_timestamp:
+          type: string
+          # format: date-time
+          example: "2026-01-07T09:12:33.001Z"
+        batch_count:
+          type: integer
+          example: 42
+        game_id:
+          type: integer
+          example: 100245
+        period:
+          type: integer
+          example: 2
+        shot_type:
+          type: string
+          example: "wrist"
+        game_time_seconds:
+          type: integer
+          example: 1325
+        shots_last_5_minutes:
+          type: integer
+          example: 6
+
+    PenaltyEvent:
+      type: object
+      required:
+        - trace_id
+        - arena_id
+        - batch_timestamp
+        - batch_count
+        - game_id
+        - period
+        - penalty_type
+        - game_time_seconds
+        - penalties_last_5_minutes
+      properties:
+        trace_id:
+          type: string
+          example: "d290f1ee-6c54-4b01-90e6-d701748f0851"
+        arena_id:
+          type: string
+          example: "arena-van-001"
+        batch_timestamp:
+          type: string
+          # format: date-time
+          example: "2026-01-07T09:12:33.001Z"
+        batch_count:
+          type: integer
+          example: 43
+        game_id:
+          type: integer
+          example: 100245
+        period:
+          type: integer
+          example: 2
+        penalty_type:
+          type: string
+          example: "tripping"
+        game_time_seconds:
+          type: integer
+          example: 1331
+        penalties_last_5_minutes:
+          type: integer
+          example: 2

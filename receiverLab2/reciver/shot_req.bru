@@ -1,0 +1,30 @@
+meta {
+  name: shot_req
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/hockey/shots
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "arena_id": "arena-van-005",
+    "batch_timestamp": "2026-01-07T09:12:33.001Z",
+    "batch_count": 1,
+    "game_id": 100245,
+    "period": 3,
+    "shot_type": "slap",
+    "game_time_seconds": 1325,
+    "shots_last_5_minutes": 5
+  }
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

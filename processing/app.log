@@ -1,0 +1,178 @@
+2026-02-11 09:06:18,211 - basicLogger - INFO - Scheduler started
+2026-02-11 09:06:23,219 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:06:23,220 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:06:27,370 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:06:27,371 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:06:29,429 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:06:29,432 - basicLogger - DEBUG - Updated stats: {'num_shots': 0, 'num_penalties': 0, 'max_shots_last_5_minutes': 0, 'min_shots_last_5_minutes': None, 'max_penalties_last_5_minutes': 0, 'min_penalties_last_5_minutes': None, 'last_updated': '2026-02-11T09:06:29.430474'}
+2026-02-11 09:06:29,432 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:06:33,219 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:06:33,220 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:06:35,275 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:06:35,276 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:06:37,318 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:06:37,320 - basicLogger - DEBUG - Updated stats: {'num_shots': 0, 'num_penalties': 0, 'max_shots_last_5_minutes': 0, 'min_shots_last_5_minutes': None, 'max_penalties_last_5_minutes': 0, 'min_penalties_last_5_minutes': None, 'last_updated': '2026-02-11T09:06:37.318788'}
+2026-02-11 09:06:37,320 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:06:38,208 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:06:38,209 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:06:40,248 - basicLogger - INFO - Received 5 shot events
+2026-02-11 09:06:40,248 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:06:42,305 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:06:42,307 - basicLogger - DEBUG - Updated stats: {'num_shots': 5, 'num_penalties': 0, 'max_shots_last_5_minutes': 12, 'min_shots_last_5_minutes': 3, 'max_penalties_last_5_minutes': 0, 'min_penalties_last_5_minutes': None, 'last_updated': '2026-02-11T09:06:42.305613'}
+2026-02-11 09:06:42,307 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:06:43,210 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:06:43,211 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:06:45,259 - basicLogger - INFO - Received 1 shot events
+2026-02-11 09:06:45,260 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:06:47,310 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:06:47,312 - basicLogger - DEBUG - Updated stats: {'num_shots': 6, 'num_penalties': 0, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 3, 'max_penalties_last_5_minutes': 0, 'min_penalties_last_5_minutes': None, 'last_updated': '2026-02-11T09:06:47.310672'}
+2026-02-11 09:06:47,312 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:06:48,216 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:06:48,217 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:06:50,268 - basicLogger - INFO - Received 1 shot events
+2026-02-11 09:06:50,269 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:06:52,309 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:06:52,312 - basicLogger - DEBUG - Updated stats: {'num_shots': 7, 'num_penalties': 0, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 0, 'min_penalties_last_5_minutes': None, 'last_updated': '2026-02-11T09:06:52.309799'}
+2026-02-11 09:06:52,312 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:06:53,223 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:06:53,224 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:06:55,284 - basicLogger - INFO - Received 1 shot events
+2026-02-11 09:06:55,284 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:06:57,336 - basicLogger - INFO - Received 3 penalty events
+2026-02-11 09:06:57,340 - basicLogger - DEBUG - Updated stats: {'num_shots': 8, 'num_penalties': 3, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:06:57.337471'}
+2026-02-11 09:06:57,340 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:06:58,210 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:06:58,211 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:00,253 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:07:00,254 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:02,293 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:02,296 - basicLogger - DEBUG - Updated stats: {'num_shots': 8, 'num_penalties': 3, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:02.294375'}
+2026-02-11 09:07:02,297 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:03,214 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:03,215 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:05,258 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:07:05,258 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:07,315 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:07,319 - basicLogger - DEBUG - Updated stats: {'num_shots': 8, 'num_penalties': 3, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:07.316617'}
+2026-02-11 09:07:07,320 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:08,222 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:08,224 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:10,281 - basicLogger - INFO - Received 2 shot events
+2026-02-11 09:07:10,282 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:12,349 - basicLogger - INFO - Received 2 penalty events
+2026-02-11 09:07:12,351 - basicLogger - DEBUG - Updated stats: {'num_shots': 10, 'num_penalties': 5, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:12.349703'}
+2026-02-11 09:07:12,351 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:13,224 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:13,225 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:15,277 - basicLogger - INFO - Received 1 shot events
+2026-02-11 09:07:15,278 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:17,344 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:17,346 - basicLogger - DEBUG - Updated stats: {'num_shots': 11, 'num_penalties': 5, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:17.344880'}
+2026-02-11 09:07:17,347 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:18,220 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:18,221 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:20,283 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:07:20,283 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:22,335 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:22,337 - basicLogger - DEBUG - Updated stats: {'num_shots': 11, 'num_penalties': 5, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:22.335521'}
+2026-02-11 09:07:22,338 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:23,222 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:23,223 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:25,273 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:07:25,273 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:27,348 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:27,352 - basicLogger - DEBUG - Updated stats: {'num_shots': 11, 'num_penalties': 5, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:27.349437'}
+2026-02-11 09:07:27,353 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:28,223 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:28,224 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:30,262 - basicLogger - INFO - Received 1 shot events
+2026-02-11 09:07:30,262 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:32,318 - basicLogger - INFO - Received 1 penalty events
+2026-02-11 09:07:32,320 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:32.319031'}
+2026-02-11 09:07:32,320 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:33,220 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:33,221 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:35,275 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:07:35,277 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:37,333 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:37,336 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:37.333786'}
+2026-02-11 09:07:37,336 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:38,212 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:38,214 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:40,273 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:07:40,274 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:42,330 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:42,333 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:42.331048'}
+2026-02-11 09:07:42,333 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:43,219 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:43,221 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:44,538 - basicLogger - INFO - GET /stats request received
+2026-02-11 09:07:44,540 - basicLogger - INFO - GET /stats request completed
+2026-02-11 09:07:45,275 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:07:45,275 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:47,339 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:47,343 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:47.340574'}
+2026-02-11 09:07:47,344 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:48,216 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:48,217 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:50,286 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:07:50,287 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:52,360 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:52,363 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:52.361561'}
+2026-02-11 09:07:52,364 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:53,215 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:53,217 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:07:55,284 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:07:55,285 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:07:57,353 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:07:57,358 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:07:57.354632'}
+2026-02-11 09:07:57,359 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:07:58,213 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:07:58,215 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:08:00,264 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:08:00,264 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:08:02,325 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:08:02,330 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:08:02.326544'}
+2026-02-11 09:08:02,331 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:08:03,213 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:08:03,215 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:08:05,269 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:08:05,270 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:08:07,346 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:08:07,351 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:08:07.347228'}
+2026-02-11 09:08:07,352 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:08:08,220 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:08:08,222 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:08:10,287 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:08:10,288 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:08:12,369 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:08:12,373 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:08:12.370231'}
+2026-02-11 09:08:12,374 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:08:13,212 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:08:13,213 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:08:15,281 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:08:15,282 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:08:17,341 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:08:17,346 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:08:17.342836'}
+2026-02-11 09:08:17,347 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:08:18,226 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:08:18,228 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:08:20,293 - basicLogger - INFO - Received 0 shot events
+2026-02-11 09:08:20,294 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:08:22,358 - basicLogger - INFO - Received 0 penalty events
+2026-02-11 09:08:22,363 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:08:22.359274'}
+2026-02-11 09:08:22,364 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:08:23,210 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:08:23,212 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:08:27,275 - basicLogger - ERROR - Error fetching shot events: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /storage/shots?start_timestamp=1770829702&end_timestamp=1770829703 (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8090): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-02-11 09:08:27,275 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:08:31,333 - basicLogger - ERROR - Error fetching penalty events: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /storage/penalties?start_timestamp=1770829702&end_timestamp=1770829703 (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8090): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-02-11 09:08:31,337 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:08:31.334727'}
+2026-02-11 09:08:31,338 - basicLogger - INFO - Periodic processing ended
+2026-02-11 09:08:33,213 - basicLogger - INFO - Periodic processing started
+2026-02-11 09:08:33,215 - basicLogger - INFO - Fetching shot events
+2026-02-11 09:08:37,278 - basicLogger - ERROR - Error fetching shot events: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /storage/shots?start_timestamp=1770829711&end_timestamp=1770829713 (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8090): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-02-11 09:08:37,279 - basicLogger - INFO - Fetching penalty events
+2026-02-11 09:08:41,330 - basicLogger - ERROR - Error fetching penalty events: HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /storage/penalties?start_timestamp=1770829711&end_timestamp=1770829713 (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8090): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-02-11 09:08:41,334 - basicLogger - DEBUG - Updated stats: {'num_shots': 12, 'num_penalties': 6, 'max_shots_last_5_minutes': 13, 'min_shots_last_5_minutes': 0, 'max_penalties_last_5_minutes': 10, 'min_penalties_last_5_minutes': 3, 'last_updated': '2026-02-11T09:08:41.331545'}
+2026-02-11 09:08:41,336 - basicLogger - INFO - Periodic processing ended

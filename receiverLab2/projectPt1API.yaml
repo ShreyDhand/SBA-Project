@@ -1,0 +1,145 @@
+openapi: 3.0.0
+info:
+  description: Receives batched hockey shot and penalty records for analytics.
+  version: "1.0.0"
+  title: hockey-batch-api
+  contact:
+    email: shreydhand2006@gmail.com
+  
+paths:
+  /hockey/shots:
+    post:
+      summary: Reports a batch of shot records
+      operationId: app.report_shot_batch
+      description: Adds a batch of shot records sent from an arena tracking system
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ShotBatch'
+      responses:
+        '201':
+          description: batch successfully received
+        '400':
+          description: invalid input
+
+  /hockey/penalties:
+    post:
+      summary: Reports a batch of penalty records
+      operationId: app.report_penalty_batch
+      description: Adds a batch of penalty records sent from an arena tracking system
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PenaltyBatch'
+      responses:
+        '201':
+          description: batch successfully received
+        '400':
+          description: invalid input
+
+components:
+  schemas:
+  
+    ShotBatch:
+      type: object
+      required:
+        - arena_id
+        - batch_timestamp
+        - batch_count
+        - shots
+      properties:
+        arena_id:
+          type: string
+          example: "arena-van-001"
+        batch_timestamp:
+          type: string
+          format: date-time
+          example: "2026-01-07T09:12:33.001Z"
+        batch_count:
+          type: integer
+          example: 42
+        shots:
+          type: array
+          items:
+            $ref: '#/components/schemas/ShotRecord'
+
+    ShotRecord:
+      type: object
+      required:
+        - game_id
+        - period
+        - shot_type
+        - game_time_seconds
+        - shots_last_5_minutes
+      properties:
+        game_id:
+          type: integer
+          example: 100245
+        period:
+          type: integer
+          example: 2
+        shot_type:
+          type: string
+          example: "wrist"
+        game_time_seconds:
+          type: integer
+          description: Seconds elapsed since the start of the game; increases as the game progresses.
+          example: 1325
+        shots_last_5_minutes:
+          type: integer
+          description: Number of shots that occurred in the previous 5 minutes of game time at the moment this shot was recorded.
+          example: 6
+
+    PenaltyBatch:
+      type: object
+      required:
+        - arena_id
+        - batch_timestamp
+        - batch_count
+        - penalties
+      properties:
+        arena_id:
+          type: string
+          example: "arena-van-001"
+        batch_timestamp:
+          type: string
+          format: date-time
+          example: "2026-01-07T09:12:33.001Z"
+        batch_count:
+          type: integer
+          example: 43
+        penalties:
+          type: array
+          items:
+            $ref: '#/components/schemas/PenaltyRecord'
+
+    PenaltyRecord:
+      type: object
+      required:
+        - game_id
+        - period
+        - penalty_type
+        - game_time_seconds
+        - penalties_last_5_minutes
+      properties:
+        game_id:
+          type: integer
+          example: 100245
+        period:
+          type: integer
+          example: 2
+        penalty_type:
+          type: string
+          example: "tripping"
+        game_time_seconds:
+          type: integer
+          description: Seconds elapsed since the start of the game; increases as the game progresses.
+          example: 1331
+        penalties_last_5_minutes:
+          type: integer
+          description: Number of penalties that occurred in the previous 5 minutes of game time at the moment this penalty was recorded.
+          example: 2

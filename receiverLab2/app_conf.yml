@@ -1,0 +1,6 @@
+version: 1
+eventstore:
+  shots:
+    url: http://localhost:8090/storage/shots
+  penalties:
+    url: http://localhost:8090/storage/penalties

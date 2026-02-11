@@ -1,0 +1,26 @@
+meta {
+  name: get_shots
+  type: http
+  seq: 1
+}
+
+get {
+  url: '''
+    http://localhost:8090/storage/shots?start_timestamp=1&end_timestamp=2
+    
+'''
+  body: none
+  auth: inherit
+}
+
+params:query {
+  start_timestamp: 1
+  end_timestamp: '''
+    2
+    
+  '''
+}
+
+settings {
+  encodeUrl: true
+}
