@@ -8,22 +8,6 @@ info:
 
 paths:
   /storage/shots:
-    post:
-      summary: Reports a batch of shot records
-      operationId: app.store_shot
-      description: Adds a batch of shot records sent from an arena tracking system
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/ShotEvent'
-      responses:
-        '201':
-          description: batch successfully received
-        '400':
-          description: invalid input
-
     get:
       summary: Gets shot events between timestamps
       operationId: app.get_shots
@@ -56,22 +40,6 @@ paths:
           description: Invalid request
 
   /storage/penalties:
-    post:
-      summary: Reports a batch of penalty records
-      operationId: app.store_penalty
-      description: Adds a batch of penalty records sent from an arena tracking system
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/PenaltyEvent'
-      responses:
-        '201':
-          description: batch successfully received
-        '400':
-          description: invalid input
-
     get:
       summary: Gets penalty events between timestamps
       operationId: app.get_penalties
@@ -126,7 +94,6 @@ components:
           example: "arena-van-001"
         batch_timestamp:
           type: string
-          # format: date-time
           example: "2026-01-07T09:12:33.001Z"
         batch_count:
           type: integer
@@ -168,7 +135,6 @@ components:
           example: "arena-van-001"
         batch_timestamp:
           type: string
-          # format: date-time
           example: "2026-01-07T09:12:33.001Z"
         batch_count:
           type: integer
@@ -188,3 +154,4 @@ components:
         penalties_last_5_minutes:
           type: integer
           example: 2
+          
