@@ -87,9 +87,9 @@ def process_messages():
 
     # Create a consumer group as required by lab
     consumer = topic.get_simple_consumer(
-        consumer_group=b'event_group',
-        reset_offset_on_start=False,
-        auto_offset_reset=OffsetType.LATEST
+        consumer_group=b'event_group_v3', # New name = New pointer
+        reset_offset_on_start=True,        # Force it to look at the start
+        auto_offset_reset=OffsetType.EARLIEST
     )
 
     logger.info("Kafka consumer started listening...")
@@ -106,12 +106,12 @@ def process_messages():
         # Call the existing store functions
         if event_type == "shot":
             try:
-                store_shot(payload)
+                store_shot(body=payload)
             except Exception as e:
                 logger.error(f"Error storing shot: {e}")
         elif event_type == "penalty":
             try:
-                store_penalty(payload)
+                store_penalty(body=payload)
             except Exception as e:
                 logger.error(f"Error storing penalty: {e}")
 
@@ -121,8 +121,17 @@ def process_messages():
 # --- API Get Endpoints ---
 def get_shots(start_timestamp, end_timestamp):
     session = make_session()
-    start = dt.fromtimestamp(start_timestamp)
-    end = dt.fromtimestamp(end_timestamp)
+    
+    # DEBUG: Let's see what's actually in the DB
+    all_shots = session.query(Shot).all()
+    logger.info(f"DEBUG: Total shots in DB: {len(all_shots)}")
+    if len(all_shots) > 0:
+        logger.info(f"DEBUG: First shot in DB was created at: {all_shots[0].date_created}")
+
+    start = dt.utcfromtimestamp(start_timestamp)
+    end = dt.utcfromtimestamp(end_timestamp)
+    logger.info(f"DEBUG: Querying from {start} to {end}")
+    
     statement = (select(Shot).where(Shot.date_created >= start).where(Shot.date_created < end))
     results = [shot.to_dict() for shot in session.execute(statement).scalars().all()]
     session.close()
@@ -131,8 +140,8 @@ def get_shots(start_timestamp, end_timestamp):
 
 def get_penalties(start_timestamp, end_timestamp):
     session = make_session()
-    start = dt.fromtimestamp(start_timestamp)
-    end = dt.fromtimestamp(end_timestamp)
+    start = dt.utcfromtimestamp(start_timestamp)
+    end = dt.utcfromtimestamp(end_timestamp)
     statement = (select(Penalty).where(Penalty.date_created >= start).where(Penalty.date_created < end))
     results = [penalty.to_dict() for penalty in session.execute(statement).scalars().all()]
     session.close()

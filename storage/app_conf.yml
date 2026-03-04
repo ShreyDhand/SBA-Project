@@ -10,3 +10,4 @@ events:
   hostname: localhost
   port: 9092
   topic: events
+  group_id: storage_group
