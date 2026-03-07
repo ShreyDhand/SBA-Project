@@ -17,6 +17,11 @@ from threading import Thread
 from db import make_session
 from models import Shot, Penalty
 
+from models import Base
+from db import ENGINE
+
+Base.metadata.create_all(ENGINE)
+
 # --- Load Configurations ---
 with open("app_conf.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
@@ -163,4 +168,4 @@ def setup_kafka_thread():
 if __name__ == "__main__":
     # Call the setup function BEFORE the app.run call [cite: 121-122]
     setup_kafka_thread()
-    app.run(port=8090)
+    app.run(port=8090, host="0.0.0.0")

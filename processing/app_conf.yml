@@ -5,6 +5,6 @@ scheduler:
   interval: 5
 eventstore:
   shots:
-    url: http://localhost:8090/storage/shots
+    url: http://storage:8090/storage/shots
   penalties:
-    url: http://localhost:8090/storage/penalties
+    url: http://storage:8090/storage/penalties

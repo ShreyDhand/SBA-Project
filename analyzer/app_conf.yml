@@ -7,6 +7,6 @@ datastore:
   db: hockey_storage
 
 events:
-  hostname: localhost
-  port: 9092
+  hostname: kafka
+  port: 29092
   topic: events

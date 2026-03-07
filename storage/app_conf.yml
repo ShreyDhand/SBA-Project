@@ -2,12 +2,12 @@ version: 1
 datastore:
   user: hockey_user
   password: hockey_pass
-  hostname: localhost
-  port: 3307
+  hostname: db        
+  port: 3306          
   db: hockey_storage
 
 events:
-  hostname: localhost
-  port: 9092
+  hostname: kafka
+  port: 29092
   topic: events
   group_id: storage_group

@@ -180,4 +180,4 @@ app.add_api("projectPt1API.yaml", strict_validation=True, validate_responses=Tru
 
 if __name__ == "__main__":
     init_scheduler()
-    app.run(port=8100)
+    app.run(port=8100, host="0.0.0.0")
