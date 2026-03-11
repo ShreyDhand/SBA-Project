@@ -23,10 +23,10 @@ from db import ENGINE
 Base.metadata.create_all(ENGINE)
 
 # --- Load Configurations ---
-with open("app_conf.yml", "r") as f:
+with open("/config/storage_config.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
 
-with open("log_conf.yml", "r") as f:
+with open("/config/storage_log_config.yml", "r") as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 

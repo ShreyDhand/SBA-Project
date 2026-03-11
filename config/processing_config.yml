@@ -1,0 +1,10 @@
+version: 1
+datastore:
+  filename: /data/data.json
+scheduler:
+  interval: 10
+eventstore:
+  shots:
+    url: http://storage:8090/storage/shots
+  penalties:
+    url: http://storage:8090/storage/penalties

@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 import yaml
 
 # Load DB configuration from file
-with open("app_conf.yml", "r") as f:
+with open("/config/storage_config.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
 
 db_conf = app_config["datastore"]

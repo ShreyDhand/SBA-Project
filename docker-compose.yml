@@ -5,6 +5,8 @@ services:
     image: wurstmeister/zookeeper
     ports:
       - "2181:2181"
+    volumes:
+      - zookeeper-data:/data
 
   kafka:
     image: wurstmeister/kafka
@@ -20,6 +22,7 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - kafka-data:/kafka
     depends_on:
       - zookeeper
 
@@ -35,7 +38,6 @@ services:
       - "3307:3306"
     volumes:
       - my-db:/var/lib/mysql
-    # Added healthcheck to ensure MySQL is fully ready
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpass"]
       interval: 10s
@@ -43,18 +45,22 @@ services:
       retries: 10
 
   receiver:
-    build:
-      context: receiver
-      dockerfile: Dockerfile
+    build: receiver
     ports:
       - "8080:8080"
+    volumes:
+      - ./config/receiver_config.yml:/config/receiver_config.yml
+      - ./config/receiver_log_config.yml:/config/receiver_log_config.yml
+      - ./logs:/logs
     depends_on:
       - kafka
 
   storage:
-    build:
-      context: storage
-      dockerfile: Dockerfile
+    build: storage
+    volumes:
+      - ./config/storage_config.yml:/config/storage_config.yml
+      - ./config/storage_log_config.yml:/config/storage_log_config.yml
+      - ./logs:/logs
     depends_on:
       db:
         condition: service_healthy
@@ -62,24 +68,27 @@ services:
         condition: service_started
 
   processing:
-    build:
-      context: processing
-      dockerfile: Dockerfile
+    build: processing
     ports:
       - "8100:8100"
+    volumes:
+      - ./config/processing_config.yml:/config/processing_config.yml
+      - ./config/processing_log_config.yml:/config/processing_log_config.yml
+      - ./logs:/logs
+      - ./data/processing:/data
     depends_on:
-      storage:
-        condition: service_started
+      - storage
 
   analyzer:
-    build:
-      context: analyzer
-      dockerfile: Dockerfile
+    build: analyzer
     ports:
       - "8110:8110"
-    depends_on:
-      - kafka
+    volumes:
+      - ./config/analyzer_config.yml:/config/analyzer_config.yml
+      - ./config/analyzer_log_config.yml:/config/analyzer_log_config.yml
+      - ./logs:/logs
 
 volumes:
   my-db:
-  
+  kafka-data:
+  zookeeper-data:
