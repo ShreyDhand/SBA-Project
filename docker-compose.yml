@@ -55,8 +55,6 @@ services:
     build:
       context: storage
       dockerfile: Dockerfile
-    ports:
-      - "8090:8090"
     depends_on:
       db:
         condition: service_healthy
