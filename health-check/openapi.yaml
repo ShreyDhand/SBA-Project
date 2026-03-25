@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Health Check API
+  version: 1.0.0
+paths:
+  /health/status:
+    get:
+      summary: Get status of all services
+      operationId: app.get_all_service_statuses
+      responses:
+        '200':
+          description: Successfully returned statuses
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  receiver: { type: string }
+                  storage: { type: string }
+                  processing: { type: string }
+                  analyzer: { type: string }
+                  last_update: { type: string }

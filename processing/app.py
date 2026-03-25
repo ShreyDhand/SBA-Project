@@ -7,6 +7,8 @@ import os
 import requests
 from datetime import datetime
 from apscheduler.schedulers.background import BackgroundScheduler
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
 
 # Load configuration files
 
@@ -171,12 +173,29 @@ def init_scheduler():
     )
     sched.start()
     logger.info("Scheduler started")
+    
+
+def check_health():
+    """ 
+    Health check endpoint that always returns 200 
+    if the service is reachable.
+    """
+    return {"status": "OK"}, 200
 
 
 # App startup
 
 app = connexion.FlaskApp(__name__, specification_dir="")
 app.add_api("projectPt1API.yaml", strict_validation=True, validate_responses=True)
+
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 if __name__ == "__main__":
     init_scheduler()

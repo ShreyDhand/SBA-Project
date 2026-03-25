@@ -1,0 +1,12 @@
+receiver:
+  url: http://receiver:8080/health
+storage:
+  url: http://storage:8090/health
+processing:
+  url: http://processing:8100/health
+analyzer:
+  url: http://analyzer:8110/health
+scheduler:
+  interval_seconds: 30 
+datastore:
+  filename: health_status.json

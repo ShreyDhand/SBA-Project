@@ -5,6 +5,8 @@ import json
 import logging
 import logging.config
 from pykafka import KafkaClient
+from connexion.middleware import MiddlewarePosition 
+from starlette.middleware.cors import CORSMiddleware
 
 # Load Configuration
 with open('/config/analyzer_config.yml', 'r') as f:
@@ -96,8 +98,24 @@ def get_reading_stats():
         "num_penalty_readings": num_penalties
     }, 200
 
+def check_health():
+    """ 
+    Health check endpoint that always returns 200 
+    if the service is reachable.
+    """
+    return {"status": "OK"}, 200
+
 app = connexion.FlaskApp(__name__, specification_dir='')
 app.add_api("projectPt1API.yaml", strict_validation=True, validate_responses=True)
+
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 if __name__ == "__main__":
     app.run(port=8110, host="0.0.0.0")

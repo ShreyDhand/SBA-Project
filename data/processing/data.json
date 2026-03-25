@@ -1,9 +1,9 @@
 {
-    "num_shots": 200,
-    "num_penalties": 200,
+    "num_shots": 300,
+    "num_penalties": 300,
     "max_shots_last_5_minutes": 15,
     "min_shots_last_5_minutes": 0,
     "max_penalties_last_5_minutes": 10,
     "min_penalties_last_5_minutes": 0,
-    "last_updated": "2026-03-11T22:01:28.517245"
+    "last_updated": "2026-03-25T20:26:41.945826"
 }

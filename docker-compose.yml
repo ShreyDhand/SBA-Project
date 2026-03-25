@@ -88,6 +88,29 @@ services:
       - ./config/analyzer_log_config.yml:/config/analyzer_log_config.yml
       - ./logs:/logs
 
+  dashboard:
+    build: ./dashboard-ui
+    ports:
+      - "3000:80"
+    depends_on:
+      - processing
+      - analyzer
+
+  health-check:
+    build: health-check
+    ports:
+      - "8120:8120"
+    volumes:
+      - ./health-check/app_conf.yml:/app/app_conf.yml
+      - ./health-check/log_conf.yml:/app/log_conf.yml
+      - ./health-check/health_status.json:/app/health_status.json
+      - ./logs:/logs
+    depends_on:
+      - receiver
+      - storage
+      - processing
+      - analyzer
+
 volumes:
   my-db:
   kafka-data:

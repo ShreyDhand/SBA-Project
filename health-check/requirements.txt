@@ -1,0 +1,6 @@
+connexion[flask]
+flask-cors
+pyyaml
+apscheduler
+requests
+uvicorn

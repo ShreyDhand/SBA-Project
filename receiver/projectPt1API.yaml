@@ -41,6 +41,23 @@ paths:
         '400':
           description: invalid input
 
+  /health:
+    get:
+      summary: Health check endpoint
+      operationId: app.check_health
+      description: Returns 200 if the service is running
+      responses:
+        "200":
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "OK"
+
 components:
   schemas:
   

@@ -2,7 +2,7 @@ version: 1
 datastore:
   filename: /data/data.json
 scheduler:
-  interval: 10
+  interval: 5
 eventstore:
   shots:
     url: http://storage:8090/storage/shots

@@ -77,6 +77,13 @@ def report_penalty_batch(body):
 
     return NoContent, 201
 
+def check_health():
+    """ 
+    Health check endpoint that always returns 200 
+    if the service is reachable.
+    """
+    return {"status": "OK"}, 200
+
 app = connexion.FlaskApp(__name__, specification_dir="")
 app.add_api("projectPt1API.yaml", strict_validation=True, validate_responses=True)
 

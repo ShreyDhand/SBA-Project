@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Hockey Analytics Dashboard" />
+    <script src="updateStats.js"></script>
+    <title>Hockey Analytics - Dashboard</title>
+</head>
+
+<body>
+    <main id="main">
+        <div id="header">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Atlanta_Falcons_logo.svg/1200px-Atlanta_Falcons_logo.svg.png" alt="Team Logo" style="width:150px;">
+            <h1>Hockey Analytics Dashboard</h1>
+        </div>
+
+        <h5 id="last-updated">Last update: <span id="last-updated-value">N/A</span></h5>
+
+        <!-- NEW: Backend Service Status -->
+        <div class="health-container">
+            <h2>Backend Service Status</h2>
+            <p>Receiver: <strong id="status-receiver">Checking...</strong></p>
+            <p>Storage: <strong id="status-storage">Checking...</strong></p>
+            <p>Processing: <strong id="status-processing">Checking...</strong></p>
+            <p>Analyzer: <strong id="status-analyzer">Checking...</strong></p>
+            <p><small>Last Update: <span id="status-last-update">N/A</span></small></p>
+        </div>
+
+        <div id="messages"></div>
+
+        <h2>Processing Statistics</h2>
+        <div id="statistics">
+            <div id="processing">
+                <code id="processing-stats">Fetching processing stats...</code>
+            </div>
+        </div>
+
+        <h2>Analyzer Information</h2>
+        <div id="statistics">
+            <div id="analyzer">
+                <code id="analyzer-stats">Fetching analyzer stats...</code>
+            </div>
+        </div>
+
+        <h2>Latest Analyzer Events</h2>
+        <div id="analyzer">
+            <div>
+                <h3>Latest Shot Event</h3>
+                <code id="event-shot">
+                    Waiting for shot data...
+                </code>
+            </div>
+            <div>
+                <h3>Latest Penalty Event</h3>
+                <code id="event-penalty">
+                    Waiting for penalty data...
+                </code>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
