@@ -4,8 +4,8 @@ const PROCESSING_STATS_API_URL = "http://localhost:8100/stats";
 
 const ANALYZER_API_URL = {
     stats: "http://localhost:8110/stats",
-    shot: "http://localhost:8110/hockey/shots?index=0",
-    penalty: "http://localhost:8110/hockey/penalties?index=0"
+    shot: "http://localhost:8110/hockey/shots?index=-1",
+    penalty: "http://localhost:8110/hockey/penalties?index=-1"
 };
 
 // NEW: Health endpoint

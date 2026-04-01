@@ -48,3 +48,250 @@
 2026-03-25 20:25:52,071 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-03-25T20:25:52'}
 2026-03-25 20:26:22,026 - health_logger - INFO - Starting health check for all services
 2026-03-25 20:26:22,050 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-03-25T20:26:22'}
+2026-04-01 18:08:19,589 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-01 18:08:19,591 - apscheduler.scheduler - INFO - Added job "check_health" to job store "default"
+2026-04-01 18:08:19,591 - apscheduler.scheduler - INFO - Scheduler started
+2026-04-01 18:08:49,593 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:08:49,625 - health_logger - ERROR - Error connecting to receiver: HTTPConnectionPool(host='receiver', port=8080): Max retries exceeded with url: /health (Caused by NameResolutionError("HTTPConnection(host='receiver', port=8080): Failed to resolve 'receiver' ([Errno -2] Name or service not known)"))
+2026-04-01 18:08:49,647 - health_logger - INFO - Recorded service statuses: {'receiver': 'Down', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:08:49'}
+2026-04-01 18:09:19,591 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:09:19,599 - health_logger - ERROR - Error connecting to receiver: HTTPConnectionPool(host='receiver', port=8080): Max retries exceeded with url: /health (Caused by NameResolutionError("HTTPConnection(host='receiver', port=8080): Failed to resolve 'receiver' ([Errno -2] Name or service not known)"))
+2026-04-01 18:09:19,614 - health_logger - INFO - Recorded service statuses: {'receiver': 'Down', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:09:19'}
+2026-04-01 18:09:49,593 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:09:49,622 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:09:49'}
+2026-04-01 18:10:19,593 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:10:19,641 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:10:19'}
+2026-04-01 18:10:49,593 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:10:49,612 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:10:49'}
+2026-04-01 18:11:19,595 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:11:19,620 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:11:19'}
+2026-04-01 18:11:49,591 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:11:49,619 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:11:49'}
+2026-04-01 18:11:53,355 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:11:58,328 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:03,325 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:08,328 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:13,330 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:18,332 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:19,592 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:12:19,620 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:12:19'}
+2026-04-01 18:12:23,331 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:28,331 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:33,334 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:40,838 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:45,838 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:12:49,595 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:12:49,617 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:12:49'}
+2026-04-01 18:12:50,843 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:13:26,758 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-01 18:13:26,760 - apscheduler.scheduler - INFO - Added job "check_health" to job store "default"
+2026-04-01 18:13:26,761 - apscheduler.scheduler - INFO - Scheduler started
+2026-04-01 18:13:50,754 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:13:55,747 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:13:56,761 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:13:56,784 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:13:56'}
+2026-04-01 18:14:00,750 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:05,749 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:10,757 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:15,750 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:19,526 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:24,570 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:26,760 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:14:26,775 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:14:26'}
+2026-04-01 18:14:29,633 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:34,731 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:39,828 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:44,820 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:49,826 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:50,108 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:55,112 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:14:56,761 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:14:56,785 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:14:56'}
+2026-04-01 18:15:00,108 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:05,113 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:10,117 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:15,115 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:20,237 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:25,439 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:26,760 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:15:26,779 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:15:26'}
+2026-04-01 18:15:31,545 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:36,570 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:38,160 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:43,162 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:48,193 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:53,290 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:15:56,761 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:15:56,786 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:15:56'}
+2026-04-01 18:15:58,289 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:16:03,390 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:16:08,407 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:16:15,728 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:16:22,204 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:16:26,760 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:16:26,776 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:16:26'}
+2026-04-01 18:16:30,677 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:16:48,886 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:16:56,759 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:16:56,776 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:16:56'}
+2026-04-01 18:17:26,081 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-01 18:17:26,082 - apscheduler.scheduler - INFO - Added job "check_health" to job store "default"
+2026-04-01 18:17:26,083 - apscheduler.scheduler - INFO - Scheduler started
+2026-04-01 18:17:29,861 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:17:44,718 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:17:49,710 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:17:54,724 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:17:56,084 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:17:56,117 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:17:56'}
+2026-04-01 18:17:59,732 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:18:04,840 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:18:10,716 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:18:17,778 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:18:26,084 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:18:26,110 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:18:26'}
+2026-04-01 18:18:27,062 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:18:43,376 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:18:56,088 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:18:56,105 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:18:56'}
+2026-04-01 18:19:01,887 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:06,907 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:12,006 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:18,619 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:26,084 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:19:26,103 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:19:26'}
+2026-04-01 18:19:27,264 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:32,286 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:37,292 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:42,402 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:48,200 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:53,224 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:19:56,087 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:19:56,115 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:19:56'}
+2026-04-01 18:19:58,230 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:03,242 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:08,253 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:13,262 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:18,279 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:23,283 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:26,082 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:20:26,107 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:20:26'}
+2026-04-01 18:20:28,292 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:33,311 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:38,315 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:43,320 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:48,371 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:53,424 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:20:56,083 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:20:56,102 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:20:56'}
+2026-04-01 18:20:59,853 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:21:12,046 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:21:20,879 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:21:26,083 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:21:26,104 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:21:26'}
+2026-04-01 18:21:39,939 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:21:54,273 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:21:56,083 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:21:56,116 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:21:56'}
+2026-04-01 18:21:59,291 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:22:04,295 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:22:09,305 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:22:14,312 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:22:19,444 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:22:24,816 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:22:26,084 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:22:26,109 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:22:26'}
+2026-04-01 18:22:32,370 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:22:43,690 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:22:56,084 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:22:56,108 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:22:56'}
+2026-04-01 18:23:07,223 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:23:20,289 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:23:26,085 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:23:26,105 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:23:26'}
+2026-04-01 18:23:56,081 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:23:56,105 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:23:56'}
+2026-04-01 18:23:58,406 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:24:26,085 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:24:26,112 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:24:26'}
+2026-04-01 18:24:56,086 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:24:56,110 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:24:56'}
+2026-04-01 18:25:11,419 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:25:26,083 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:25:26,100 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:25:26'}
+2026-04-01 18:25:34,983 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:25:39,970 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:25:44,977 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:25:49,992 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:25:54,997 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:25:56,083 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:25:56,111 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:25:56'}
+2026-04-01 18:26:00,017 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:05,017 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:10,031 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:15,450 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:24,803 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:26,084 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:26:26,103 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:26:26'}
+2026-04-01 18:26:32,085 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:38,318 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:43,333 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:48,353 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:53,381 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:26:56,084 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:26:56,123 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:26:56'}
+2026-04-01 18:26:58,413 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:27:03,402 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:27:08,412 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:27:13,421 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:27:18,524 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:27:24,740 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:27:26,087 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:27:26,118 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:27:26'}
+2026-04-01 18:27:34,417 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:27:55,449 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:27:56,085 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:27:56,103 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:27:56'}
+2026-04-01 18:28:19,897 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:28:24,879 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:28:26,083 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:28:26,104 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:28:26'}
+2026-04-01 18:28:29,893 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:28:34,998 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:28:40,792 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:28:50,333 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:28:56,089 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:28:56,123 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:28:56'}
+2026-04-01 18:29:02,360 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:07,360 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:12,373 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:17,386 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:22,393 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:26,083 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:29:26,103 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:29:26'}
+2026-04-01 18:29:27,406 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:32,412 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:37,446 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:42,434 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:47,441 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:52,551 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:29:56,083 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:29:56,096 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:29:56'}
+2026-04-01 18:29:57,552 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:00,659 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:05,662 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:10,660 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:15,660 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:20,663 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:25,665 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:26,084 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:30:26,109 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:30:26'}
+2026-04-01 18:30:30,664 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:35,686 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:40,693 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:45,705 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:50,715 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:55,722 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:30:56,083 - health_logger - INFO - Starting health check for all services
+2026-04-01 18:30:56,099 - health_logger - INFO - Recorded service statuses: {'receiver': 'Up', 'storage': 'Up', 'processing': 'Up', 'analyzer': 'Up', 'last_update': '2026-04-01T18:30:56'}
+2026-04-01 18:31:00,855 - health_logger - INFO - Request for all service statuses received
+2026-04-01 18:31:06,443 - health_logger - INFO - Request for all service statuses received

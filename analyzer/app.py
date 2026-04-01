@@ -26,11 +26,32 @@ def get_shot_reading(index):
     client = KafkaClient(hosts=kafka_host)
     topic = client.topics[app_config['events']['topic'].encode()]
 
-    consumer = topic.get_simple_consumer(reset_offset_on_start=True, 
-                                         consumer_timeout_ms=1000)
+    consumer = topic.get_simple_consumer(
+        reset_offset_on_start=True,
+        consumer_timeout_ms=1000
+    )
+
+    logger.info(f"Searching for shot at index {index}...")
+
+    # NEW: return latest shot when index = -1
+    if index == -1:
+        latest_shot = None
+
+        for msg in consumer:
+            message = msg.value.decode('utf-8')
+            msg_payload = json.loads(message)
+
+            if msg_payload.get('type') == 'shot':
+                latest_shot = msg_payload['payload']
+
+        if latest_shot is not None:
+            logger.info("Found latest shot event")
+            return latest_shot, 200
+
+        logger.error("No shot events found in Kafka")
+        return {"message": "No shot events found"}, 404
 
     counter = 0
-    logger.info(f"Searching for shot at index {index}...")
 
     for msg in consumer:
         message = msg.value.decode('utf-8')
@@ -52,11 +73,32 @@ def get_penalty_reading(index):
     client = KafkaClient(hosts=kafka_host)
     topic = client.topics[app_config['events']['topic'].encode()]
 
-    consumer = topic.get_simple_consumer(reset_offset_on_start=True, 
-                                         consumer_timeout_ms=1000)
+    consumer = topic.get_simple_consumer(
+        reset_offset_on_start=True,
+        consumer_timeout_ms=1000
+    )
+
+    logger.info(f"Searching for penalty at index {index}...")
+
+    # NEW: return latest penalty when index = -1
+    if index == -1:
+        latest_penalty = None
+
+        for msg in consumer:
+            message = msg.value.decode('utf-8')
+            msg_payload = json.loads(message)
+
+            if msg_payload.get('type') == 'penalty':
+                latest_penalty = msg_payload['payload']
+
+        if latest_penalty is not None:
+            logger.info("Found latest penalty event")
+            return latest_penalty, 200
+
+        logger.error("No penalty events found in Kafka")
+        return {"message": "No penalty events found"}, 404
 
     counter = 0
-    logger.info(f"Searching for penalty at index {index}...")
 
     for msg in consumer:
         message = msg.value.decode('utf-8')
