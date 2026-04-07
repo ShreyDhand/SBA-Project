@@ -25,6 +25,12 @@ services:
       - kafka-data:/kafka
     depends_on:
       - zookeeper
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 9092 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
 
   db:
     image: mysql:8
@@ -52,8 +58,9 @@ services:
       - ./config/receiver_config.yml:/config/receiver_config.yml
       - ./config/receiver_log_config.yml:/config/receiver_log_config.yml
       - ./logs:/logs
-    depends_on:
-      - kafka
+    #depends_on:
+     # kafka:
+      #  condition: service_healthy
 
   storage:
     build: storage

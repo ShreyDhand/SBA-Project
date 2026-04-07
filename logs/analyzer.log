@@ -1344,3 +1344,40 @@
 2026-04-01 18:31:06,608 - basicLogger - INFO - Stats calculated: 100 shots, 100 penalties
 2026-04-01 18:31:06,608 - basicLogger - INFO - Found latest penalty event
 2026-04-01 18:31:06,613 - basicLogger - INFO - Found latest shot event
+2026-04-01 18:31:10,336 - basicLogger - INFO - Searching for penalty at index -1...
+2026-04-01 18:31:10,337 - basicLogger - INFO - Searching for shot at index -1...
+2026-04-01 18:31:11,545 - basicLogger - INFO - Stats calculated: 100 shots, 100 penalties
+2026-04-01 18:31:11,545 - basicLogger - INFO - Found latest shot event
+2026-04-01 18:31:11,549 - basicLogger - INFO - Found latest penalty event
+2026-04-01 18:31:22,960 - basicLogger - INFO - Searching for shot at index -1...
+2026-04-01 18:31:22,961 - basicLogger - INFO - Searching for penalty at index -1...
+2026-04-01 18:31:24,167 - basicLogger - INFO - Stats calculated: 100 shots, 100 penalties
+2026-04-01 18:31:24,167 - basicLogger - INFO - Found latest shot event
+2026-04-01 18:31:24,171 - basicLogger - INFO - Found latest penalty event
+2026-04-01 18:31:44,633 - basicLogger - INFO - Searching for shot at index -1...
+2026-04-01 18:31:44,635 - basicLogger - INFO - Searching for penalty at index -1...
+2026-04-01 18:31:45,837 - basicLogger - INFO - Stats calculated: 100 shots, 100 penalties
+2026-04-01 18:31:45,840 - basicLogger - INFO - Found latest penalty event
+2026-04-01 18:31:45,840 - basicLogger - INFO - Found latest shot event
+2026-04-01 18:31:48,639 - basicLogger - INFO - Searching for penalty at index -1...
+2026-04-01 18:31:48,645 - basicLogger - INFO - Searching for shot at index -1...
+2026-04-01 18:31:49,848 - basicLogger - INFO - Found latest penalty event
+2026-04-01 18:31:49,849 - basicLogger - INFO - Stats calculated: 100 shots, 100 penalties
+2026-04-01 18:31:49,853 - basicLogger - INFO - Found latest shot event
+2026-04-01 18:31:52,654 - basicLogger - INFO - Searching for penalty at index -1...
+2026-04-01 18:31:52,655 - basicLogger - INFO - Searching for shot at index -1...
+2026-04-01 18:31:53,860 - basicLogger - INFO - Found latest penalty event
+2026-04-01 18:31:53,861 - basicLogger - INFO - Found latest shot event
+2026-04-01 18:31:53,861 - basicLogger - INFO - Stats calculated: 100 shots, 100 penalties
+2026-04-01 19:53:25,876 - basicLogger - INFO - Stats calculated: 200 shots, 200 penalties
+2026-04-01 19:53:32,377 - basicLogger - INFO - Stats calculated: 400 shots, 400 penalties
+2026-04-01 19:58:41,508 - basicLogger - INFO - Stats calculated: 0 shots, 0 penalties
+2026-04-01 19:58:48,561 - basicLogger - INFO - Stats calculated: 200 shots, 200 penalties
+2026-04-01 19:59:28,479 - basicLogger - INFO - Stats calculated: 200 shots, 200 penalties
+2026-04-01 20:02:18,974 - basicLogger - INFO - Stats calculated: 0 shots, 0 penalties
+2026-04-01 20:02:39,434 - basicLogger - INFO - Stats calculated: 500 shots, 500 penalties
+2026-04-01 20:42:14,319 - basicLogger - INFO - Stats calculated: 600 shots, 600 penalties
+2026-04-01 20:42:21,059 - basicLogger - INFO - Stats calculated: 600 shots, 600 penalties
+2026-04-01 20:42:24,963 - basicLogger - INFO - Stats calculated: 650 shots, 650 penalties
+2026-04-01 20:42:40,367 - basicLogger - INFO - Stats calculated: 650 shots, 650 penalties
+2026-04-01 20:42:44,645 - basicLogger - INFO - Stats calculated: 700 shots, 700 penalties

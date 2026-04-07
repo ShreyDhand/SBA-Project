@@ -6,9 +6,10 @@ import yaml
 import logging
 import logging.config
 import datetime
+import time
 from pykafka import KafkaClient 
 
-# --- Config & Logging ---
+# Config & Logging 
 with open("/config/receiver_config.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
 
@@ -18,17 +19,35 @@ with open("/config/receiver_log_config.yml", "r") as f:
 
 logger = logging.getLogger("basicLogger")
 
-# --- Kafka Setup (Lab 6 Requirement) ---
-# Connect to your Mac Docker Kafka
-client = KafkaClient(hosts=f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}')
-topic = client.topics[str.encode(app_config["events"]["topic"])]
-producer = topic.get_sync_producer() # Synchronous producer for easier debugging
+# Kafka Setup with Retry Logic (Part 3) 
+producer = None
+
+def init_kafka():
+    """ Keeps trying to connect to Kafka until successful """
+    global producer
+    hostname = f'{app_config["events"]["hostname"]}:{app_config["events"]["port"]}'
+    
+    while producer is None:
+        try:
+            logger.info(f"Connecting to Kafka at {hostname}...")
+            # This is the line that was crashing!
+            client = KafkaClient(hosts=hostname) 
+            topic = client.topics[str.encode(app_config["events"]["topic"])]
+            
+            producer = topic.get_producer() 
+            logger.info("Successfully connected to Kafka!")
+        except Exception as e:
+            # Instead of crashing, we log the error and wait
+            logger.error(f"Kafka connection failed: {e}. Retrying in 5 seconds...")
+            time.sleep(5)
+
+# Initialize Kafka before the app starts
+init_kafka()
 
 def report_shot_batch(body):
     trace_id = str(uuid.uuid4())
     logger.info(f"Received shot batch event with trace id {trace_id}")
 
-    # Process each item in the batch
     for shot in body.get("shots", []):
         msg = {
             "type": "shot",
@@ -45,11 +64,10 @@ def report_shot_batch(body):
                 "shots_last_5_minutes": shot["shots_last_5_minutes"],
             }
         }
-        # Convert to JSON string and produce to Kafka
         msg_str = json.dumps(msg)
+        # Use the producer initialized in the retry loop
         producer.produce(msg_str.encode('utf-8'))
 
-    # Lab requirement: Always return 201
     return NoContent, 201
 
 def report_penalty_batch(body):
@@ -78,10 +96,6 @@ def report_penalty_batch(body):
     return NoContent, 201
 
 def check_health():
-    """ 
-    Health check endpoint that always returns 200 
-    if the service is reachable.
-    """
     return {"status": "OK"}, 200
 
 app = connexion.FlaskApp(__name__, specification_dir="")

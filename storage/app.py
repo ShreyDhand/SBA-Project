@@ -22,7 +22,7 @@ from db import ENGINE
 
 Base.metadata.create_all(ENGINE)
 
-# --- Load Configurations ---
+# Load Configurations 
 with open("/config/storage_config.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
 
@@ -32,7 +32,7 @@ with open("/config/storage_log_config.yml", "r") as f:
 
 logger = logging.getLogger("basicLogger")
 
-# --- Database Decorator ---
+# Database Decorator
 def use_db_session(func):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
@@ -43,7 +43,7 @@ def use_db_session(func):
             session.close()
     return wrapper
 
-# --- Storage Logic ---
+# Storage Logic 
 @use_db_session
 def store_shot(session, body):
     """ Stores a shot event to the database """
@@ -83,7 +83,7 @@ def store_penalty(session, body):
     logger.debug(f"Stored penalty event with trace id {body['trace_id']}")
     return NoContent, 201
 
-# --- Kafka Consumer Logic (Part 4) ---
+# Kafka Consumer Logic (Part 4)
 def process_messages():
     """ Process event messages from Kafka """
     hostname = f"{app_config['events']['hostname']}:{app_config['events']['port']}"
@@ -123,7 +123,7 @@ def process_messages():
         # Commit the message as being read
         consumer.commit_offsets()
 
-# --- API Get Endpoints ---
+# API Get Endpoints 
 def get_shots(start_timestamp, end_timestamp):
     session = make_session()
     
@@ -160,7 +160,7 @@ def check_health():
     """
     return {"status": "OK"}, 200
 
-# --- App Initialization ---
+# App Initialization 
 app = connexion.FlaskApp(__name__, specification_dir="")
 app.add_api("projectPt1API.yaml", strict_validation=True, validate_responses=True)
 
@@ -173,6 +173,10 @@ def setup_kafka_thread():
     t1.start()
 
 if __name__ == "__main__":
+    # Create tables only when the script runs, 
+    # ensuring the DB is ready per the healthcheck
+    Base.metadata.create_all(ENGINE)
+    
     # Call the setup function BEFORE the app.run call [cite: 121-122]
     setup_kafka_thread()
     app.run(port=8090, host="0.0.0.0")
