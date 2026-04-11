@@ -1,15 +1,15 @@
 /* UPDATE THESE VALUES TO MATCH YOUR SETUP */
 
-const PROCESSING_STATS_API_URL = "http://localhost:8100/stats";
+const PROCESSING_STATS_API_URL = "/processing/stats";
 
 const ANALYZER_API_URL = {
-    stats: "http://localhost:8110/stats",
-    shot: "http://localhost:8110/hockey/shots?index=-1",
-    penalty: "http://localhost:8110/hockey/penalties?index=-1"
+    stats: "/analyzer/stats",
+    shot: "/analyzer/hockey/shots?index=-1",
+    penalty: "/analyzer/hockey/penalties?index=-1"
 };
 
 // NEW: Health endpoint
-const HEALTH_URL = "http://localhost:8120/health/status";
+const HEALTH_URL = "/health-check/health/status";
 
 // This function fetches and updates the general statistics
 const makeReq = (url, cb) => {

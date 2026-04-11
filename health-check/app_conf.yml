@@ -1,12 +1,12 @@
 receiver:
-  url: http://receiver:8080/health
+  url: http://dashboard/receiver/health
 storage:
-  url: http://storage:8090/health
+  url: http://dashboard/storage/health
 processing:
-  url: http://processing:8100/health
+  url: http://dashboard/processing/health
 analyzer:
-  url: http://analyzer:8110/health
+  url: http://dashboard/analyzer/health
 scheduler:
-  interval_seconds: 30 
+  interval_seconds: 5
 datastore:
   filename: health_status.json

@@ -4422,3 +4422,417 @@
 2026-04-01 20:42:37,479 - basicLogger - INFO - Received penalty batch event with trace id ac3c39e5-b084-4feb-82ce-7a5fbc5c4dca
 2026-04-01 20:42:37,483 - basicLogger - INFO - Received shot batch event with trace id 5379e2a4-8b79-4d6b-b3bd-ffe052ae7e08
 2026-04-01 20:42:37,486 - basicLogger - INFO - Received penalty batch event with trace id bc2e54e4-10a7-47f3-8e25-4d96dd8f1a12
+2026-04-11 00:47:36,029 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 00:47:38,756 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 00:47:43,758 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 00:47:44,051 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 00:47:44,132 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 00:47:44,140 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 01:57:00,375 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 01:57:03,098 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 01:57:08,099 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 01:57:08,434 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 01:57:08,566 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 01:57:08,577 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 01:57:32,935 - basicLogger - INFO - Received shot batch event with trace id bc902db4-99aa-4e2a-974a-213418094774
+2026-04-11 01:57:32,941 - basicLogger - INFO - Received penalty batch event with trace id 1e9be72a-2fe9-49e3-a79a-320c024e5246
+2026-04-11 01:57:32,944 - basicLogger - INFO - Received shot batch event with trace id 0221b71e-fcd4-4328-914c-e265e1247d88
+2026-04-11 01:57:32,947 - basicLogger - INFO - Received penalty batch event with trace id 565c9dc8-c791-47b8-83e6-396d9dc62782
+2026-04-11 01:57:32,950 - basicLogger - INFO - Received shot batch event with trace id cdddfdca-ed57-492d-a980-30d39151498d
+2026-04-11 01:57:32,953 - basicLogger - INFO - Received penalty batch event with trace id 436f5157-0e99-4757-b1be-63d6e1aec505
+2026-04-11 01:57:32,956 - basicLogger - INFO - Received shot batch event with trace id 43f3b12b-8dae-4b31-95c5-a8446d8caf3d
+2026-04-11 01:57:32,960 - basicLogger - INFO - Received penalty batch event with trace id ad807819-e06f-4b1a-a34a-13ee609548a8
+2026-04-11 01:57:32,963 - basicLogger - INFO - Received shot batch event with trace id 77e9f3e5-06db-444a-a686-4d6346efc297
+2026-04-11 01:57:32,966 - basicLogger - INFO - Received penalty batch event with trace id acdc8d99-62ba-4919-8c62-d3caa0737427
+2026-04-11 01:57:32,983 - basicLogger - INFO - Received shot batch event with trace id 05258816-7065-42df-b705-51160ad58b38
+2026-04-11 01:57:32,986 - basicLogger - INFO - Received penalty batch event with trace id 9a4d3ef3-cded-4df8-8d0a-cdcba805dda6
+2026-04-11 01:57:32,989 - basicLogger - INFO - Received shot batch event with trace id d83f9d38-d55a-4fb6-b82a-97c14d8f779d
+2026-04-11 01:57:32,991 - basicLogger - INFO - Received penalty batch event with trace id 31cb386a-8cfd-470c-8019-4a5195a90a0d
+2026-04-11 01:57:32,994 - basicLogger - INFO - Received shot batch event with trace id 17c5b229-2e8d-4f4d-8604-b1aec7318b5c
+2026-04-11 01:57:32,997 - basicLogger - INFO - Received penalty batch event with trace id a4872859-b82a-48fe-95de-27d8bc2b9f3a
+2026-04-11 01:57:33,001 - basicLogger - INFO - Received shot batch event with trace id 47a5dd49-e260-4a93-9bbf-12b4127e1979
+2026-04-11 01:57:33,003 - basicLogger - INFO - Received penalty batch event with trace id bd2b9d06-6b7d-4656-88af-f98a4c6542a8
+2026-04-11 01:57:33,006 - basicLogger - INFO - Received shot batch event with trace id dbbb0a2f-7e88-4375-9907-3d052361f8e0
+2026-04-11 01:57:33,008 - basicLogger - INFO - Received penalty batch event with trace id bd01e6b5-ba9c-4f95-990b-e9b984bef654
+2026-04-11 01:57:33,084 - basicLogger - INFO - Received shot batch event with trace id d74e45f4-7545-40b0-a7ba-5172f2782a4f
+2026-04-11 01:57:33,088 - basicLogger - INFO - Received penalty batch event with trace id 4aab75a2-3897-4ff9-80ee-65bf5e5f3db2
+2026-04-11 01:57:33,092 - basicLogger - INFO - Received shot batch event with trace id 7a8abd7f-7742-4f99-af19-78a2514d09bc
+2026-04-11 01:57:33,095 - basicLogger - INFO - Received penalty batch event with trace id bd2bbf88-4f69-4bd4-8cc4-1ec72cab68a4
+2026-04-11 01:57:33,098 - basicLogger - INFO - Received shot batch event with trace id 0b2fb246-2e79-47b9-b458-08f0711f7873
+2026-04-11 01:57:33,100 - basicLogger - INFO - Received penalty batch event with trace id 7d29164b-0679-40ab-a003-2a878493e07a
+2026-04-11 01:57:33,103 - basicLogger - INFO - Received shot batch event with trace id 07ec3060-b337-4d42-84be-ba28279da17f
+2026-04-11 01:57:33,105 - basicLogger - INFO - Received penalty batch event with trace id d1ef561d-5042-4cfe-9dae-ebc3e8dfdfea
+2026-04-11 01:57:33,108 - basicLogger - INFO - Received shot batch event with trace id dcf4bdb9-91fa-4a03-b94e-a7993122bb69
+2026-04-11 01:57:33,111 - basicLogger - INFO - Received penalty batch event with trace id 97cf9494-de2b-4fd3-ae75-21ad18035c44
+2026-04-11 01:57:33,183 - basicLogger - INFO - Received shot batch event with trace id 68b30883-b9c1-47ae-9195-351e632317ff
+2026-04-11 01:57:33,188 - basicLogger - INFO - Received penalty batch event with trace id 0d88b224-dfcb-4bbd-a07b-e6f1aadeb194
+2026-04-11 01:57:33,192 - basicLogger - INFO - Received shot batch event with trace id ba1a65d8-5652-47b6-8dad-7ef182bd8fcf
+2026-04-11 01:57:33,195 - basicLogger - INFO - Received penalty batch event with trace id 5ddcd85a-25eb-4d53-950c-2f61270876a3
+2026-04-11 01:57:33,198 - basicLogger - INFO - Received shot batch event with trace id bc6c4407-da9e-4170-aaa0-1b13fa088a18
+2026-04-11 01:57:33,200 - basicLogger - INFO - Received penalty batch event with trace id acf6dea6-3e96-48b3-baa9-01379f9e6a4e
+2026-04-11 01:57:33,203 - basicLogger - INFO - Received shot batch event with trace id 97b5dbfe-3489-4992-ab8b-a98528605941
+2026-04-11 01:57:33,206 - basicLogger - INFO - Received penalty batch event with trace id ea629492-f56f-49c0-8f0b-4790d14d7d8f
+2026-04-11 01:57:33,208 - basicLogger - INFO - Received shot batch event with trace id bdc91e1c-01ea-4381-9165-b4dc7e5667bd
+2026-04-11 01:57:33,210 - basicLogger - INFO - Received penalty batch event with trace id eae1aa1f-9b79-4960-b3e1-4b509601b17c
+2026-04-11 01:57:33,279 - basicLogger - INFO - Received shot batch event with trace id 0bf11b7f-01bf-4622-97a1-9eeac69cd192
+2026-04-11 01:57:33,284 - basicLogger - INFO - Received penalty batch event with trace id 91ccdf6a-ba96-4b3e-9497-57600c457f20
+2026-04-11 01:57:33,288 - basicLogger - INFO - Received shot batch event with trace id 150d5cf7-9b3b-4477-bcd9-fd9ca6e5b2b0
+2026-04-11 01:57:33,291 - basicLogger - INFO - Received penalty batch event with trace id c92f9e53-1b81-49f3-a75f-585c8e302e5d
+2026-04-11 01:57:33,294 - basicLogger - INFO - Received shot batch event with trace id fe6300bc-8b46-4195-bef1-1980e239f136
+2026-04-11 01:57:33,298 - basicLogger - INFO - Received penalty batch event with trace id 85aec31c-17da-4991-be69-de39179baee3
+2026-04-11 01:57:33,302 - basicLogger - INFO - Received shot batch event with trace id db942ffc-0ba5-4fa7-86d6-f3af8003be17
+2026-04-11 01:57:33,305 - basicLogger - INFO - Received penalty batch event with trace id 855f31a3-4943-4684-b2b9-7d13731271ab
+2026-04-11 01:57:33,308 - basicLogger - INFO - Received shot batch event with trace id 8401a595-19e8-4024-ac40-b0801700f069
+2026-04-11 01:57:33,311 - basicLogger - INFO - Received penalty batch event with trace id 38c79e49-0b6e-4811-bcd3-821414d1e759
+2026-04-11 01:57:33,385 - basicLogger - INFO - Received shot batch event with trace id 8b7d9684-f0a1-4186-ab56-e610c5c50d73
+2026-04-11 01:57:33,388 - basicLogger - INFO - Received penalty batch event with trace id 3a47c51d-0824-48a7-8361-68e1c20e936e
+2026-04-11 01:57:33,391 - basicLogger - INFO - Received shot batch event with trace id b548a9ec-5cf2-4c24-98b1-6942b9a85240
+2026-04-11 01:57:33,393 - basicLogger - INFO - Received penalty batch event with trace id ae340e6c-a49b-4eb9-be45-f2a347d92f65
+2026-04-11 01:57:33,396 - basicLogger - INFO - Received shot batch event with trace id b11750ea-7147-4400-bc8d-5d32370176b2
+2026-04-11 01:57:33,399 - basicLogger - INFO - Received penalty batch event with trace id 20f6ecaf-e5e8-43e1-9adb-38cdf39d3d0f
+2026-04-11 01:57:33,401 - basicLogger - INFO - Received shot batch event with trace id de40ec17-a4d4-4193-acdf-18019b2e7536
+2026-04-11 01:57:33,404 - basicLogger - INFO - Received penalty batch event with trace id addab951-0de5-4afa-85ca-13291d0e3097
+2026-04-11 01:57:33,406 - basicLogger - INFO - Received shot batch event with trace id 005082e9-bbb4-4f5c-a5bb-0aecce5a3113
+2026-04-11 01:57:33,409 - basicLogger - INFO - Received penalty batch event with trace id 4fc47f7f-6b5e-4338-8f79-fbf937e70ed1
+2026-04-11 01:57:33,481 - basicLogger - INFO - Received shot batch event with trace id 2fa7ed94-81be-40df-88ec-21cc84760005
+2026-04-11 01:57:33,487 - basicLogger - INFO - Received penalty batch event with trace id 519e5637-d08c-4e58-aa04-4565fb1385bc
+2026-04-11 01:57:33,492 - basicLogger - INFO - Received shot batch event with trace id fc16e6bd-9e86-4c4d-a513-5abeddff8e4e
+2026-04-11 01:57:33,496 - basicLogger - INFO - Received penalty batch event with trace id 43880e59-2aee-4d18-b5b6-1c0c22de3ea3
+2026-04-11 01:57:33,501 - basicLogger - INFO - Received shot batch event with trace id b30711e1-a5cc-4990-896e-22a974a80ccd
+2026-04-11 01:57:33,505 - basicLogger - INFO - Received penalty batch event with trace id 87e5afb7-284c-40a6-958a-5c0db340571f
+2026-04-11 01:57:33,509 - basicLogger - INFO - Received shot batch event with trace id b031ffbb-3929-4663-a01a-ff59821c7652
+2026-04-11 01:57:33,512 - basicLogger - INFO - Received penalty batch event with trace id cb6f5366-4e0b-405c-8083-2f34bd1962b0
+2026-04-11 01:57:33,516 - basicLogger - INFO - Received shot batch event with trace id 63d3125c-51c0-47db-b129-30aef740ab02
+2026-04-11 01:57:33,520 - basicLogger - INFO - Received penalty batch event with trace id fda9fd71-77cb-41c2-bae6-0c4420eb7053
+2026-04-11 01:57:33,584 - basicLogger - INFO - Received shot batch event with trace id fa270caf-1fe1-4633-b310-5285e6bb986a
+2026-04-11 01:57:33,589 - basicLogger - INFO - Received penalty batch event with trace id 534596a0-23ff-475b-b165-b2cb6cd252e4
+2026-04-11 01:57:33,595 - basicLogger - INFO - Received shot batch event with trace id dc7c45fb-ccd1-45b0-8994-a3005b9f0ec2
+2026-04-11 01:57:33,600 - basicLogger - INFO - Received penalty batch event with trace id 4df1498f-c1ed-4e14-9cb7-0db8de7b617b
+2026-04-11 01:57:33,605 - basicLogger - INFO - Received shot batch event with trace id 8dafb532-4aff-4a4e-adf9-4cbe315024bc
+2026-04-11 01:57:33,610 - basicLogger - INFO - Received penalty batch event with trace id c3870ab7-c416-451a-938e-733fe9bfd9c2
+2026-04-11 01:57:33,614 - basicLogger - INFO - Received shot batch event with trace id e6bfd733-605d-434b-aa4a-327a97764cc9
+2026-04-11 01:57:33,618 - basicLogger - INFO - Received penalty batch event with trace id b73daaa2-f2ca-4828-8fdc-4db198103e8c
+2026-04-11 01:57:33,622 - basicLogger - INFO - Received shot batch event with trace id 96141bfe-b638-4a58-b395-81cec22d2d6d
+2026-04-11 01:57:33,625 - basicLogger - INFO - Received penalty batch event with trace id b467739a-b579-4a6c-8dcb-12dbbffa467b
+2026-04-11 01:57:33,679 - basicLogger - INFO - Received shot batch event with trace id 65331be9-44de-4359-9f0e-9402927d6414
+2026-04-11 01:57:33,683 - basicLogger - INFO - Received penalty batch event with trace id 176ed3fd-ed3a-499b-bf9c-b17d168bbb21
+2026-04-11 01:57:33,686 - basicLogger - INFO - Received shot batch event with trace id 823fff48-1d9c-4cb7-a386-3f2e0a2ab5d7
+2026-04-11 01:57:33,690 - basicLogger - INFO - Received penalty batch event with trace id ee188ea2-13bd-4950-aef8-f061fb724dfd
+2026-04-11 01:57:33,693 - basicLogger - INFO - Received shot batch event with trace id 2ae9b9e9-b8a5-4877-bf64-39d85104ef31
+2026-04-11 01:57:33,697 - basicLogger - INFO - Received penalty batch event with trace id c0e07969-bce9-46c4-bfa9-6cd1cd17729b
+2026-04-11 01:57:33,701 - basicLogger - INFO - Received shot batch event with trace id b870bb58-3528-417a-b10e-5a227ed3363c
+2026-04-11 01:57:33,705 - basicLogger - INFO - Received penalty batch event with trace id 88dfe1da-2817-4388-bd5c-d5606ca2a9cb
+2026-04-11 01:57:33,708 - basicLogger - INFO - Received shot batch event with trace id 133422e4-9363-4f17-b7c5-b44f26ac0c62
+2026-04-11 01:57:33,711 - basicLogger - INFO - Received penalty batch event with trace id 71baecf6-af44-44cd-bb3c-e7c3e97c8b95
+2026-04-11 01:57:33,781 - basicLogger - INFO - Received shot batch event with trace id 7f0c8ff6-0e52-4929-ab2e-c6926b98982b
+2026-04-11 01:57:33,789 - basicLogger - INFO - Received penalty batch event with trace id a242c8dd-08a7-4249-88ee-1bc9d5668fcd
+2026-04-11 01:57:33,793 - basicLogger - INFO - Received shot batch event with trace id 90f09b4a-553a-493a-810b-f3443767dd98
+2026-04-11 01:57:33,798 - basicLogger - INFO - Received penalty batch event with trace id 81873980-d878-4fb3-ae17-22a83be425dd
+2026-04-11 01:57:33,804 - basicLogger - INFO - Received shot batch event with trace id 1f37900b-2759-4006-9ee4-6616d8d8e1b1
+2026-04-11 01:57:33,809 - basicLogger - INFO - Received penalty batch event with trace id 964b8dcd-af36-4a93-a19c-11d8330aeaef
+2026-04-11 01:57:33,814 - basicLogger - INFO - Received shot batch event with trace id cc7faf24-ff83-4a2c-a5fe-b720d3b73c31
+2026-04-11 01:57:33,819 - basicLogger - INFO - Received penalty batch event with trace id 84d3816c-b1b6-4675-8173-8fc54e2da4ea
+2026-04-11 01:57:33,825 - basicLogger - INFO - Received shot batch event with trace id 7a6dd07c-cf7f-4210-b82f-7fb2c54e67b9
+2026-04-11 01:57:33,831 - basicLogger - INFO - Received penalty batch event with trace id cc232f18-5d14-4502-96eb-34b0d6820f6e
+2026-04-11 02:25:26,693 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:25:29,423 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:25:34,426 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:25:34,708 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:25:34,794 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:25:34,802 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:27:24,653 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:27:27,380 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:27:32,384 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:27:32,409 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:27:32,502 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:27:32,509 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:28:56,658 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:28:59,395 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:29:04,398 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:29:04,879 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:29:05,077 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:29:05,089 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:30:45,825 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:30:48,553 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:30:53,554 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:30:53,828 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:30:53,912 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:30:53,921 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:32:12,941 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:32:15,669 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:32:20,672 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:32:20,964 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:32:21,043 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:32:21,051 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:33:46,248 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:33:48,970 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:33:53,975 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:33:54,266 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:33:54,349 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:33:54,356 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:38:06,057 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:38:08,785 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:38:13,788 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:38:14,088 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:38:14,199 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:38:14,209 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:40:25,754 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:40:28,479 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:40:33,484 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:40:33,657 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:40:33,743 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:40:33,750 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:45:58,626 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:46:01,354 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:46:06,358 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:46:06,552 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:46:06,623 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:46:06,632 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:48:25,749 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:48:28,474 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:48:33,476 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:48:33,666 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:48:33,751 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:48:33,764 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:58:39,028 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:58:41,755 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 02:58:46,757 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:58:47,041 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 02:58:47,116 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 02:58:47,124 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:02:43,300 - basicLogger - INFO - Received shot batch event with trace id 647a065c-d545-4e9a-ad68-af69f0e15be9
+2026-04-11 03:02:43,307 - basicLogger - INFO - Received penalty batch event with trace id c0866cfa-b4ff-4ddd-a73c-d4d1a59b44b8
+2026-04-11 03:02:43,311 - basicLogger - INFO - Received shot batch event with trace id 9ce07e97-9086-4296-9157-e5a9b921505d
+2026-04-11 03:02:43,316 - basicLogger - INFO - Received penalty batch event with trace id d3b9dbfa-331c-4ac5-bda6-f22edb0b0189
+2026-04-11 03:02:43,321 - basicLogger - INFO - Received shot batch event with trace id 63da138a-e2c4-4113-9cb9-c67fffd24d49
+2026-04-11 03:02:43,325 - basicLogger - INFO - Received penalty batch event with trace id a885c286-9d80-4ded-906a-e7bd22d6b601
+2026-04-11 03:02:43,330 - basicLogger - INFO - Received shot batch event with trace id 80d57b3a-ce1b-4cbb-bd7a-cd0879e6fd63
+2026-04-11 03:02:43,335 - basicLogger - INFO - Received penalty batch event with trace id 08c04b85-da43-47b0-944a-9fc27db0905c
+2026-04-11 03:02:43,339 - basicLogger - INFO - Received shot batch event with trace id ab26cdcc-63f0-4870-971e-c19443acdb10
+2026-04-11 03:02:43,343 - basicLogger - INFO - Received penalty batch event with trace id 5f328e40-fbcf-4452-83d5-a2f3191feec9
+2026-04-11 03:02:43,397 - basicLogger - INFO - Received shot batch event with trace id 52db7e6f-1b87-4523-9ed0-1ed814b6ddae
+2026-04-11 03:02:43,401 - basicLogger - INFO - Received penalty batch event with trace id fa17c7fc-5464-4f2f-91ab-34da796e34e9
+2026-04-11 03:02:43,405 - basicLogger - INFO - Received shot batch event with trace id 137be569-f978-4455-aa1c-b1e21814e607
+2026-04-11 03:02:43,410 - basicLogger - INFO - Received penalty batch event with trace id 69717598-2f90-43de-ab39-b62b1796d22a
+2026-04-11 03:02:43,414 - basicLogger - INFO - Received shot batch event with trace id 431e0096-b1bd-4b08-9a1b-73d6253fa35d
+2026-04-11 03:02:43,418 - basicLogger - INFO - Received penalty batch event with trace id bbd84b32-cab7-4f3c-bf27-12da9b50a6cb
+2026-04-11 03:02:43,423 - basicLogger - INFO - Received shot batch event with trace id 0886487a-99fe-46e7-ae69-dc3622329c32
+2026-04-11 03:02:43,427 - basicLogger - INFO - Received penalty batch event with trace id 4675c051-f93b-45fb-a05c-ba1d408f4302
+2026-04-11 03:02:43,431 - basicLogger - INFO - Received shot batch event with trace id 9db6a521-a3ea-4ab8-8915-143c0ad8f14a
+2026-04-11 03:02:43,435 - basicLogger - INFO - Received penalty batch event with trace id 7bc93279-e29d-4a83-9862-3ed9e3e1cb49
+2026-04-11 03:02:43,495 - basicLogger - INFO - Received shot batch event with trace id cf7592c9-db19-4a9b-86e4-f7f55d8a8247
+2026-04-11 03:02:43,498 - basicLogger - INFO - Received penalty batch event with trace id f902b46c-278e-4695-9990-d99046e560e8
+2026-04-11 03:02:43,501 - basicLogger - INFO - Received shot batch event with trace id ab91b91b-891a-41ef-92ef-099f87f263dd
+2026-04-11 03:02:43,504 - basicLogger - INFO - Received penalty batch event with trace id 350901a5-5b60-4928-b043-8907e19b51e7
+2026-04-11 03:02:43,508 - basicLogger - INFO - Received shot batch event with trace id 976967f8-80d5-4ba1-895f-5967ec019db3
+2026-04-11 03:02:43,511 - basicLogger - INFO - Received penalty batch event with trace id 93e60137-a79f-4fdc-81dd-02ddc85a8dd6
+2026-04-11 03:02:43,514 - basicLogger - INFO - Received shot batch event with trace id 92fb4270-033f-4646-885b-710a49f7879b
+2026-04-11 03:02:43,517 - basicLogger - INFO - Received penalty batch event with trace id 30685004-f69d-4d7a-9355-7b9141b66188
+2026-04-11 03:02:43,521 - basicLogger - INFO - Received shot batch event with trace id 036a574f-0c20-4d19-937e-edde72dc8667
+2026-04-11 03:02:43,524 - basicLogger - INFO - Received penalty batch event with trace id 8cf2936b-d6ba-42d3-b011-7c78559619ee
+2026-04-11 03:02:43,599 - basicLogger - INFO - Received shot batch event with trace id de9664e1-deb7-40df-ba38-5374e9cb55e6
+2026-04-11 03:02:43,603 - basicLogger - INFO - Received penalty batch event with trace id f3230122-b757-49cb-b76f-72bfbce9404d
+2026-04-11 03:02:43,610 - basicLogger - INFO - Received shot batch event with trace id ebbcec13-dd81-42e7-86a3-f795578300bc
+2026-04-11 03:02:43,615 - basicLogger - INFO - Received penalty batch event with trace id 5526e534-0ca0-4e66-96c0-5c6dcd78ea1a
+2026-04-11 03:02:43,618 - basicLogger - INFO - Received shot batch event with trace id 9372d261-88e0-4c6a-bab1-86e5480e1f2a
+2026-04-11 03:02:43,623 - basicLogger - INFO - Received penalty batch event with trace id b89dfc81-770c-4e29-a500-bd16a5de9a30
+2026-04-11 03:02:43,626 - basicLogger - INFO - Received shot batch event with trace id c56df212-a4f8-41d1-8120-96e65a0b91c4
+2026-04-11 03:02:43,631 - basicLogger - INFO - Received penalty batch event with trace id 7e454836-eedf-4813-80ea-24749f099b2a
+2026-04-11 03:02:43,634 - basicLogger - INFO - Received shot batch event with trace id 63f60b3d-7a11-4fa0-9c2b-7bf970bf9850
+2026-04-11 03:02:43,638 - basicLogger - INFO - Received penalty batch event with trace id ed268f86-21c8-4d51-8283-80c352638d05
+2026-04-11 03:02:43,697 - basicLogger - INFO - Received shot batch event with trace id aaaa3b1d-881d-4397-a2b9-d3088817aea5
+2026-04-11 03:02:43,701 - basicLogger - INFO - Received penalty batch event with trace id bbb03e77-70a3-4480-9b32-ada8c213a735
+2026-04-11 03:02:43,704 - basicLogger - INFO - Received shot batch event with trace id 4f444f13-e57c-44fc-b539-a64d0ee5fdea
+2026-04-11 03:02:43,707 - basicLogger - INFO - Received penalty batch event with trace id a898a51f-ec35-4716-9d95-14d77d8a8caa
+2026-04-11 03:02:43,710 - basicLogger - INFO - Received shot batch event with trace id d4b88a44-4167-4a65-9409-a0973b62bb34
+2026-04-11 03:02:43,713 - basicLogger - INFO - Received penalty batch event with trace id 50b5095a-1b9b-48d4-9fdf-c19e022d1359
+2026-04-11 03:02:43,716 - basicLogger - INFO - Received shot batch event with trace id 8f973d2e-8313-4472-bc28-e587c6b0583c
+2026-04-11 03:02:43,719 - basicLogger - INFO - Received penalty batch event with trace id de1fa749-ed3e-428d-91aa-58f7b50e990f
+2026-04-11 03:02:43,722 - basicLogger - INFO - Received shot batch event with trace id 0aa1c0aa-43fc-4c3a-b43f-7fe5ae8e1f4c
+2026-04-11 03:02:43,725 - basicLogger - INFO - Received penalty batch event with trace id 28f9184f-e8bb-4ab7-9a6c-d2293c0753ec
+2026-04-11 03:02:43,796 - basicLogger - INFO - Received shot batch event with trace id dd3bb35f-cc8b-4053-84c9-5a8709b54deb
+2026-04-11 03:02:43,801 - basicLogger - INFO - Received penalty batch event with trace id 9061579e-b802-4f4e-912f-8a0d5ac443e7
+2026-04-11 03:02:43,805 - basicLogger - INFO - Received shot batch event with trace id bf88cca4-7de9-4e8b-9b85-fc41c5d77717
+2026-04-11 03:02:43,808 - basicLogger - INFO - Received penalty batch event with trace id ae9ccf34-0946-4ce1-831d-a731f1663b32
+2026-04-11 03:02:43,811 - basicLogger - INFO - Received shot batch event with trace id 99b47f3d-148f-4a70-8190-64eb37446b20
+2026-04-11 03:02:43,814 - basicLogger - INFO - Received penalty batch event with trace id 9908e9ca-d073-4c16-b18a-32c64318a2ad
+2026-04-11 03:02:43,817 - basicLogger - INFO - Received shot batch event with trace id 05f694b6-fafa-446b-9cfd-a192861bd522
+2026-04-11 03:02:43,820 - basicLogger - INFO - Received penalty batch event with trace id 9aa6ae3a-9fce-4c20-bdfa-5cf1e268f7da
+2026-04-11 03:02:43,823 - basicLogger - INFO - Received shot batch event with trace id 1d0f49cf-af16-4fc2-bf40-3ce58695cccb
+2026-04-11 03:02:43,826 - basicLogger - INFO - Received penalty batch event with trace id b47b12be-9fa5-4f96-ad8c-2ccd3092aae8
+2026-04-11 03:02:43,893 - basicLogger - INFO - Received shot batch event with trace id f3efa7d6-b7fe-4e4d-8948-848fce46f518
+2026-04-11 03:02:43,898 - basicLogger - INFO - Received penalty batch event with trace id 8d1a0ae5-a6be-4baf-a748-01f4ce61183f
+2026-04-11 03:02:43,903 - basicLogger - INFO - Received shot batch event with trace id f2df0ac1-c585-41c6-b1aa-5d3be32656aa
+2026-04-11 03:02:43,906 - basicLogger - INFO - Received penalty batch event with trace id 219e539c-fdfa-42d8-b12b-6151edb7536d
+2026-04-11 03:02:43,911 - basicLogger - INFO - Received shot batch event with trace id f0ef3bd6-f1ce-42ba-be1b-d73d47ed70f0
+2026-04-11 03:02:43,915 - basicLogger - INFO - Received penalty batch event with trace id d46e7982-abf9-4a77-bacc-71de1091eea2
+2026-04-11 03:02:43,919 - basicLogger - INFO - Received shot batch event with trace id 9f9cc73a-8587-45ed-829a-c1b509fd2ed4
+2026-04-11 03:02:43,922 - basicLogger - INFO - Received penalty batch event with trace id 4ea393f2-3837-48af-8980-bec6fd7b276f
+2026-04-11 03:02:43,927 - basicLogger - INFO - Received shot batch event with trace id e9c51b55-cd1e-47e3-8176-8b95d1466811
+2026-04-11 03:02:43,930 - basicLogger - INFO - Received penalty batch event with trace id ac10c411-121b-4777-8220-4fb1026f836e
+2026-04-11 03:02:43,997 - basicLogger - INFO - Received shot batch event with trace id e8ecfc9b-2a08-4565-ab6b-a2350a35a25b
+2026-04-11 03:02:44,002 - basicLogger - INFO - Received penalty batch event with trace id 397ae3a6-f766-42f8-b54f-f07028b6c09e
+2026-04-11 03:02:44,007 - basicLogger - INFO - Received shot batch event with trace id b5d89e7e-66a4-427b-abb2-116fd0fe4dbe
+2026-04-11 03:02:44,011 - basicLogger - INFO - Received penalty batch event with trace id 4597d808-ab45-4b61-bf8b-b15ba6d04f29
+2026-04-11 03:02:44,016 - basicLogger - INFO - Received shot batch event with trace id 3cb95469-419a-4ec9-8e0f-fbb084e57a19
+2026-04-11 03:02:44,020 - basicLogger - INFO - Received penalty batch event with trace id ba038905-c5f0-4f2b-b989-a0755196ca35
+2026-04-11 03:02:44,024 - basicLogger - INFO - Received shot batch event with trace id 489d2bde-974b-445e-b1a1-530c20483c67
+2026-04-11 03:02:44,028 - basicLogger - INFO - Received penalty batch event with trace id 8c8cd442-235f-43b1-9fb8-2fbe0e8e028b
+2026-04-11 03:02:44,032 - basicLogger - INFO - Received shot batch event with trace id 73ca2fe3-9544-4b2b-b7f2-225209d5ae16
+2026-04-11 03:02:44,036 - basicLogger - INFO - Received penalty batch event with trace id 9be4ab2d-2b4a-4fa5-8176-e42929e1680c
+2026-04-11 03:02:44,096 - basicLogger - INFO - Received shot batch event with trace id 002e603a-bbda-489b-a25b-a4dea5218f2e
+2026-04-11 03:02:44,100 - basicLogger - INFO - Received penalty batch event with trace id c9192a07-5d9d-4739-9434-33d246664896
+2026-04-11 03:02:44,105 - basicLogger - INFO - Received shot batch event with trace id dc660286-d757-4281-b741-5540786d4f58
+2026-04-11 03:02:44,109 - basicLogger - INFO - Received penalty batch event with trace id 35d97327-1d3e-4c87-8848-81be4f86be60
+2026-04-11 03:02:44,114 - basicLogger - INFO - Received shot batch event with trace id e837d5fa-7cd2-4503-b9b2-24b9915d1b1c
+2026-04-11 03:02:44,118 - basicLogger - INFO - Received penalty batch event with trace id fcbe6259-b8cd-469a-89ba-dffabc742cf7
+2026-04-11 03:02:44,123 - basicLogger - INFO - Received shot batch event with trace id c0ecca72-2d40-4223-8bc9-3cb04b72673f
+2026-04-11 03:02:44,127 - basicLogger - INFO - Received penalty batch event with trace id b6b22554-3359-4b7a-a5bf-3572e7851b63
+2026-04-11 03:02:44,132 - basicLogger - INFO - Received shot batch event with trace id d48ac559-dc50-4c4e-98dc-3c035fe55263
+2026-04-11 03:02:44,137 - basicLogger - INFO - Received penalty batch event with trace id fe0a95ec-5181-464e-9eed-0a4e687c6e18
+2026-04-11 03:02:44,197 - basicLogger - INFO - Received shot batch event with trace id 899d06d3-a82c-49aa-b288-ab8b8cd69890
+2026-04-11 03:02:44,200 - basicLogger - INFO - Received penalty batch event with trace id ce0fc024-6af9-44dc-bea3-60648c6dd530
+2026-04-11 03:02:44,203 - basicLogger - INFO - Received shot batch event with trace id 952833ca-bc42-455f-8033-4ba594ef1789
+2026-04-11 03:02:44,206 - basicLogger - INFO - Received penalty batch event with trace id 39902b3c-39a4-432b-978f-59ca64bad834
+2026-04-11 03:02:44,209 - basicLogger - INFO - Received shot batch event with trace id 28d1e8ae-6d3d-469e-b2a3-29849566428a
+2026-04-11 03:02:44,211 - basicLogger - INFO - Received penalty batch event with trace id a471c364-12a3-445b-bec0-69fe4d91b7b0
+2026-04-11 03:02:44,215 - basicLogger - INFO - Received shot batch event with trace id 5fa80b73-2f69-4664-9f79-7821ee565c60
+2026-04-11 03:02:44,218 - basicLogger - INFO - Received penalty batch event with trace id f9105f43-4ecc-4614-ad5d-d9cf4db61a2b
+2026-04-11 03:02:44,220 - basicLogger - INFO - Received shot batch event with trace id 9e4120f0-f4cd-4350-9588-a74cf672eff5
+2026-04-11 03:02:44,224 - basicLogger - INFO - Received penalty batch event with trace id d07dae17-3e20-491b-a9d0-77c50f835a00
+2026-04-11 03:04:56,445 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:04:59,174 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 03:05:04,175 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:05:04,454 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:05:04,528 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:05:04,536 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:05:34,163 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:05:36,902 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 03:05:41,904 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:05:42,192 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:05:42,290 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:05:42,299 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:07:40,040 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:07:40,202 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:07:40,502 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:07:42,778 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 03:07:42,927 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 03:07:43,229 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 03:07:47,779 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:07:47,929 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:07:48,064 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:07:48,081 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:07:48,162 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:07:48,172 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:07:48,175 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:07:48,185 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:07:48,230 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:07:48,241 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:07:48,322 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:07:48,331 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:08:35,164 - basicLogger - INFO - Received shot batch event with trace id 9f2d7e53-3397-419a-b7c7-cc2e10a68194
+2026-04-11 03:08:35,174 - basicLogger - INFO - Received penalty batch event with trace id 6f6b0f59-9f29-4873-ab10-054f56bdb3c9
+2026-04-11 03:08:35,180 - basicLogger - INFO - Received shot batch event with trace id 6c5f6f70-3734-4e7c-99b0-d4760558e995
+2026-04-11 03:08:35,184 - basicLogger - INFO - Received penalty batch event with trace id 3aa3374f-8a7e-409f-a7f8-fe308cd25e74
+2026-04-11 03:08:35,187 - basicLogger - INFO - Received shot batch event with trace id d0a4828e-0a68-4d99-a5b4-59afe2f7ec34
+2026-04-11 03:08:35,190 - basicLogger - INFO - Received penalty batch event with trace id 8c295e8e-9b02-4848-83d5-f5967df5b02c
+2026-04-11 03:08:35,194 - basicLogger - INFO - Received shot batch event with trace id b9a02ecc-ce47-465d-a0c1-11858aaf752a
+2026-04-11 03:08:35,197 - basicLogger - INFO - Received penalty batch event with trace id 66f4f30d-f23b-40e1-8abf-6dd584acb345
+2026-04-11 03:08:35,201 - basicLogger - INFO - Received shot batch event with trace id 9a28d9c8-2096-456f-b25d-4a9a75bc0781
+2026-04-11 03:08:35,204 - basicLogger - INFO - Received penalty batch event with trace id 2174ce4f-a499-41ff-8ce6-8e8060aec8ce
+2026-04-11 03:08:35,261 - basicLogger - INFO - Received shot batch event with trace id 0f7042f8-17cb-4e44-959b-d6e40156b84f
+2026-04-11 03:08:35,264 - basicLogger - INFO - Received penalty batch event with trace id e4da21e1-d25d-4565-ae69-152b2e25e0b7
+2026-04-11 03:08:35,269 - basicLogger - INFO - Received shot batch event with trace id 9f318ff7-a79b-4fef-80fe-546df1ba8aab
+2026-04-11 03:08:35,273 - basicLogger - INFO - Received penalty batch event with trace id c04c9d97-3c88-485d-a02c-1a1ad4dcc858
+2026-04-11 03:08:35,277 - basicLogger - INFO - Received shot batch event with trace id 7111028c-22ba-478e-b479-afc9f4cbff29
+2026-04-11 03:08:35,281 - basicLogger - INFO - Received penalty batch event with trace id 39ea6714-a48a-4ef3-9a5f-6621c4f8e5d4
+2026-04-11 03:08:35,285 - basicLogger - INFO - Received shot batch event with trace id 435d8679-01af-4f5c-861f-1f938e2686c6
+2026-04-11 03:08:35,288 - basicLogger - INFO - Received penalty batch event with trace id b0c46cd9-be73-4191-8ee6-0ff174e64947
+2026-04-11 03:08:35,292 - basicLogger - INFO - Received shot batch event with trace id 3004395d-8f04-41da-841b-4c5a2573b7d4
+2026-04-11 03:08:35,296 - basicLogger - INFO - Received penalty batch event with trace id 664a7902-c4e5-4538-bbdd-d0b69e4d7113
+2026-04-11 03:08:35,358 - basicLogger - INFO - Received shot batch event with trace id 634a2946-60b5-4178-ab42-049bc9627bf6
+2026-04-11 03:08:35,362 - basicLogger - INFO - Received penalty batch event with trace id 4018f942-9464-41e9-8e60-cce5bd778625
+2026-04-11 03:08:35,365 - basicLogger - INFO - Received shot batch event with trace id 9f58d030-8e6a-45c4-aef2-31787b5eec94
+2026-04-11 03:08:35,369 - basicLogger - INFO - Received penalty batch event with trace id be25d9f1-3ee7-4baa-bd29-2aebf763f426
+2026-04-11 03:08:35,373 - basicLogger - INFO - Received shot batch event with trace id 468699be-7c4a-4277-a7c1-0aa58fab2e2f
+2026-04-11 03:08:35,376 - basicLogger - INFO - Received penalty batch event with trace id 8ef985f4-5084-4699-b5cb-bde1557208b8
+2026-04-11 03:08:35,380 - basicLogger - INFO - Received shot batch event with trace id e3fec3c0-998c-4605-b656-72ca333db8f8
+2026-04-11 03:08:35,383 - basicLogger - INFO - Received penalty batch event with trace id 7388b0db-73da-4b77-bd32-f3dcc93c1ca6
+2026-04-11 03:08:35,387 - basicLogger - INFO - Received shot batch event with trace id 85db0887-2a1d-46dc-a264-409bf4697269
+2026-04-11 03:08:35,390 - basicLogger - INFO - Received penalty batch event with trace id f14a1c4a-cd22-40d5-905c-a142682d8569
+2026-04-11 03:08:35,458 - basicLogger - INFO - Received shot batch event with trace id 1c6854f3-4e8a-490a-adbd-4f5777d96b84
+2026-04-11 03:08:35,463 - basicLogger - INFO - Received penalty batch event with trace id 40161a91-4a34-4bec-8cb0-90841c73a247
+2026-04-11 03:08:35,467 - basicLogger - INFO - Received shot batch event with trace id d57ddcae-e762-4b5e-b5b4-9f53ca9ecbe2
+2026-04-11 03:08:35,471 - basicLogger - INFO - Received penalty batch event with trace id 9e7bbc21-5ab5-4cc2-8d0d-3302ee0207af
+2026-04-11 03:08:35,475 - basicLogger - INFO - Received shot batch event with trace id 2b94fd47-5c56-4186-89d2-c4e992a9f97d
+2026-04-11 03:08:35,478 - basicLogger - INFO - Received penalty batch event with trace id 7fad92c6-4245-4add-86e7-b1a9c65206fb
+2026-04-11 03:08:35,481 - basicLogger - INFO - Received shot batch event with trace id 5878f8d6-0697-4424-9d16-283e5c606378
+2026-04-11 03:08:35,485 - basicLogger - INFO - Received penalty batch event with trace id a6e10488-502f-46e6-8d8a-0a0606c1a5af
+2026-04-11 03:08:35,488 - basicLogger - INFO - Received shot batch event with trace id df6a5505-6969-4515-b3db-d273ac262c5a
+2026-04-11 03:08:35,491 - basicLogger - INFO - Received penalty batch event with trace id a0ae9ee1-0839-400d-bd40-da5ddf564f82
+2026-04-11 03:08:35,561 - basicLogger - INFO - Received shot batch event with trace id c84c1bcf-dd49-47b5-9e70-6e86177e23c0
+2026-04-11 03:08:35,565 - basicLogger - INFO - Received penalty batch event with trace id 01192682-e813-4056-b0e4-a64b6a7b3e07
+2026-04-11 03:08:35,571 - basicLogger - INFO - Received shot batch event with trace id 388a9d09-5d91-48b2-ae4a-20213fbd3c4b
+2026-04-11 03:08:35,575 - basicLogger - INFO - Received penalty batch event with trace id 48b2d9a0-7c51-4155-b28f-97494753b1fd
+2026-04-11 03:08:35,580 - basicLogger - INFO - Received shot batch event with trace id fef8b81f-92e2-4905-90c9-cf167f95c81d
+2026-04-11 03:08:35,585 - basicLogger - INFO - Received penalty batch event with trace id 33ae2b78-0ff4-4037-9d6b-a2d965b167b0
+2026-04-11 03:08:35,590 - basicLogger - INFO - Received shot batch event with trace id 912335fd-b2d8-4677-b248-980276e2ff76
+2026-04-11 03:08:35,595 - basicLogger - INFO - Received penalty batch event with trace id a1a90ae6-a08a-4ac6-a46c-9025b8e458b6
+2026-04-11 03:08:35,601 - basicLogger - INFO - Received shot batch event with trace id f2504b39-1641-4acc-b97f-6b66d565cc06
+2026-04-11 03:08:35,605 - basicLogger - INFO - Received penalty batch event with trace id 61c8a898-809f-402b-b44a-72c72385ba34
+2026-04-11 03:08:35,663 - basicLogger - INFO - Received shot batch event with trace id 0aa95097-437d-440f-845b-bfb896afb978
+2026-04-11 03:08:35,669 - basicLogger - INFO - Received penalty batch event with trace id 33dc989f-5ab1-46de-b9ff-2fb7c4421b00
+2026-04-11 03:08:35,674 - basicLogger - INFO - Received shot batch event with trace id ac2dd27f-4001-46c6-baa6-8fe4b5b2fdc0
+2026-04-11 03:08:35,679 - basicLogger - INFO - Received penalty batch event with trace id 9512278c-904e-40fc-b74a-47f70100ea0d
+2026-04-11 03:08:35,684 - basicLogger - INFO - Received shot batch event with trace id 176643ea-f557-4655-9d19-da5ea2642a9b
+2026-04-11 03:08:35,690 - basicLogger - INFO - Received penalty batch event with trace id f1866ae4-bcf1-428e-a9a6-5463fd544f3c
+2026-04-11 03:08:35,694 - basicLogger - INFO - Received shot batch event with trace id 87fc0750-b523-45ee-a3bf-a703a3f06446
+2026-04-11 03:08:35,700 - basicLogger - INFO - Received penalty batch event with trace id e44bf33a-130a-4426-befc-c873dce937db
+2026-04-11 03:08:35,705 - basicLogger - INFO - Received shot batch event with trace id a85ba1cf-a1ad-4e68-9367-72ffd4180691
+2026-04-11 03:08:35,711 - basicLogger - INFO - Received penalty batch event with trace id 67b86923-83c5-4eb1-95bb-1020b0e6ddaf
+2026-04-11 03:08:35,756 - basicLogger - INFO - Received shot batch event with trace id 0990bb68-4e81-4533-95c0-c2f133f9a0cc
+2026-04-11 03:08:35,761 - basicLogger - INFO - Received penalty batch event with trace id 7fc75873-cd92-48fb-a739-b0e1b1992728
+2026-04-11 03:08:35,765 - basicLogger - INFO - Received shot batch event with trace id 07a21ae7-ae48-43ed-ba62-ca49d8666345
+2026-04-11 03:08:35,770 - basicLogger - INFO - Received penalty batch event with trace id 68208e52-ad6a-4865-85e1-f3b0a872f6b5
+2026-04-11 03:08:35,776 - basicLogger - INFO - Received shot batch event with trace id 5a1f024e-30a0-4d3c-9382-c7b2831d028c
+2026-04-11 03:08:35,780 - basicLogger - INFO - Received penalty batch event with trace id 10ff3dae-e06d-47e0-b249-f206904b398f
+2026-04-11 03:08:35,784 - basicLogger - INFO - Received shot batch event with trace id 2058a933-eacd-4980-b535-bf4ab7c150ad
+2026-04-11 03:08:35,788 - basicLogger - INFO - Received penalty batch event with trace id 784fbcd7-73d3-41f3-873f-734146737d7c
+2026-04-11 03:08:35,792 - basicLogger - INFO - Received shot batch event with trace id 06e6097c-546a-4721-af94-5e3c64e5e1c2
+2026-04-11 03:08:35,795 - basicLogger - INFO - Received penalty batch event with trace id 066ee065-c4e5-4d7c-b91a-78179fdeb882
+2026-04-11 03:08:35,856 - basicLogger - INFO - Received shot batch event with trace id 29a58ff8-3994-4e04-88f3-4af5c6a8fd9f
+2026-04-11 03:08:35,860 - basicLogger - INFO - Received penalty batch event with trace id 62b5b33f-1ff6-4eb9-a95f-4271d5e227e0
+2026-04-11 03:08:35,864 - basicLogger - INFO - Received shot batch event with trace id 8132978b-6419-4655-a376-03f70cdd543e
+2026-04-11 03:08:35,868 - basicLogger - INFO - Received penalty batch event with trace id f69a08df-7cd2-475b-99d0-3dedee054a21
+2026-04-11 03:08:35,872 - basicLogger - INFO - Received shot batch event with trace id 7e2d537a-a58a-414c-aa0a-6470c74d63e2
+2026-04-11 03:08:35,876 - basicLogger - INFO - Received penalty batch event with trace id 3509663e-1347-4263-8c10-0e65e7b2e456
+2026-04-11 03:08:35,879 - basicLogger - INFO - Received shot batch event with trace id cfe22b2c-64ac-41cc-8cfa-94724734f4f2
+2026-04-11 03:08:35,883 - basicLogger - INFO - Received penalty batch event with trace id ca6bd878-e645-43d6-b1de-950b51596ab9
+2026-04-11 03:08:35,887 - basicLogger - INFO - Received shot batch event with trace id b4a7f759-b9f5-4d68-b2ce-c62a9e3ba423
+2026-04-11 03:08:35,891 - basicLogger - INFO - Received penalty batch event with trace id aaed592b-3507-4811-bafa-5834011c1c13
+2026-04-11 03:08:35,957 - basicLogger - INFO - Received shot batch event with trace id 5c026a35-a3c7-40de-9dd9-026c64b2e75e
+2026-04-11 03:08:35,960 - basicLogger - INFO - Received penalty batch event with trace id f71fe62c-8a4a-496d-b1f1-b9e7ea15ff88
+2026-04-11 03:08:35,963 - basicLogger - INFO - Received shot batch event with trace id 6293e16e-e78d-40be-828f-702e84eb7496
+2026-04-11 03:08:35,967 - basicLogger - INFO - Received penalty batch event with trace id c2093560-3ffa-4be8-8eba-a91a40e13f01
+2026-04-11 03:08:35,970 - basicLogger - INFO - Received shot batch event with trace id bee2ad4e-737c-4ba6-80a4-c78de0216ab7
+2026-04-11 03:08:35,974 - basicLogger - INFO - Received penalty batch event with trace id a16b3ebf-8777-4b94-841a-ff4e406521d3
+2026-04-11 03:08:35,977 - basicLogger - INFO - Received shot batch event with trace id a3c9aeea-2ba8-4d1d-9ddd-a4440d2aab39
+2026-04-11 03:08:35,980 - basicLogger - INFO - Received penalty batch event with trace id e7764728-df34-4bd6-8f4b-9f46c855abce
+2026-04-11 03:08:35,983 - basicLogger - INFO - Received shot batch event with trace id f015b922-f9af-4937-96c9-36682c4bf815
+2026-04-11 03:08:35,987 - basicLogger - INFO - Received penalty batch event with trace id d64117b0-87e7-40dd-9f52-2b39ff380684
+2026-04-11 03:08:36,061 - basicLogger - INFO - Received shot batch event with trace id 53aa6198-7039-4002-928f-f11bb5fd5c7b
+2026-04-11 03:08:36,065 - basicLogger - INFO - Received penalty batch event with trace id e02531cd-0b82-4bc9-881e-df2e9324cba4
+2026-04-11 03:08:36,070 - basicLogger - INFO - Received shot batch event with trace id 3fc5024c-5ab9-4b88-964c-abb09a0ccd1c
+2026-04-11 03:08:36,073 - basicLogger - INFO - Received penalty batch event with trace id 3c4c5b38-6349-40f9-a925-c8ac697b09dc
+2026-04-11 03:08:36,077 - basicLogger - INFO - Received shot batch event with trace id 6f04eb8b-d17a-4ff0-bc24-26f058235c6c
+2026-04-11 03:08:36,080 - basicLogger - INFO - Received penalty batch event with trace id 6f8f7d31-a899-4f38-b42a-48f523ae8826
+2026-04-11 03:08:36,084 - basicLogger - INFO - Received shot batch event with trace id 3b3911bf-c539-4ee1-a0da-030cc9fc27fc
+2026-04-11 03:08:36,087 - basicLogger - INFO - Received penalty batch event with trace id d3a9b235-bed4-4a2b-af38-9f9a936eb44e
+2026-04-11 03:08:36,091 - basicLogger - INFO - Received shot batch event with trace id c4b740e7-3614-43bd-b6c7-573a09dd7962
+2026-04-11 03:08:36,094 - basicLogger - INFO - Received penalty batch event with trace id faa8d978-eb43-49cc-a822-c8d09b2df21f
+2026-04-11 03:12:45,480 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:12:48,211 - basicLogger - ERROR - Kafka connection failed: Unable to connect to a broker to fetch metadata. See logs.. Retrying in 5 seconds...
+2026-04-11 03:12:53,214 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:12:53,385 - basicLogger - INFO - Successfully connected to Kafka!
+2026-04-11 03:12:53,457 - basicLogger - INFO - Connecting to Kafka at kafka:29092...
+2026-04-11 03:12:53,465 - basicLogger - INFO - Successfully connected to Kafka!

@@ -162,7 +162,7 @@ def check_health():
 
 # App Initialization 
 app = connexion.FlaskApp(__name__, specification_dir="")
-app.add_api("projectPt1API.yaml", strict_validation=True, validate_responses=True)
+app.add_api("projectPt1API.yaml", base_path="/storage", strict_validation=True, validate_responses=True)
 
 # Create the specific function requested in the lab [cite: 118-120]
 def setup_kafka_thread():

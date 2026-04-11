@@ -69,7 +69,7 @@ def get_all_service_statuses():
         return {"message": "Health data not yet initialized"}, 404
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-app.add_api("openapi.yaml")
+app.add_api("openapi.yaml", base_path="/health-check")
 CORS(app.app)
 
 if __name__ == "__main__":
